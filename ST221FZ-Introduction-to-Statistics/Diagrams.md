@@ -1,1 +1,1 @@
-- ![Chapter-1](Chapter-1.md ^X-bar 20chart)
+- [Chapter-1](Chapter-1.md)
