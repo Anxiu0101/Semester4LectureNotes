@@ -1,1 +1,1 @@
-- [Chapter-1](Chapter-1.md/##X-bar chart)
+- ![Chapter-1](Chapter-1.md "X-bar chart")
