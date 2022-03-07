@@ -24,4 +24,5 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 - Degree 用于描述某个节点拥有的子节点的数量，叶节点的 degree 为 0
 - Ancestor (祖先) 查询某个节点时经过的所有节点都是这个节点的 Ancestor
 - Descendant 与 Ancestor 对应，节点 x 为节点 y 的 Ancestor，则节点 y 为节点 x 的 Descendant，描述的是从某个节点可以抵达的所有节点
-- 
+- 我们称所有的节点都为其自身的 Ancestor 和 Descendant，所以不为其自身的 Ancestor 和 Descendant 我们称为 proper Ancestor 以及 proper Descendant，即真祖先节点与真后代节点。
+- The root is the only node without a parent. 根节点没有父节点
