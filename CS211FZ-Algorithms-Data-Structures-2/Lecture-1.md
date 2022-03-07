@@ -14,3 +14,11 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 - 𝑮 是无环的，并且|𝑬| = |𝑽| - 𝟏。
 - 𝑮 是非循环的，但如果将任何边添加到 E，则生成的图包含一个循环。
 
+## Terminologies
+
+- 根节点 root node
+- 叶节点 leaf node / 外节点 External node
+- 内节点 internal node
+- 深度 Depth 描述的是节点的深度，查询时需要的次数
+- 高度 Height 描述的是整个树的高度，即最多的查询次数
+- Degree 用于描述某个节点拥有的子节点的数量，叶节点的 degree 为 0
