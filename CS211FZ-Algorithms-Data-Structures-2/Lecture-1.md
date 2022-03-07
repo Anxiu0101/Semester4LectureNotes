@@ -4,3 +4,6 @@
 - to be able to analyze the performance(性能) of operations on trees
 - to know how trees are used in real-world applications
 
+## Properties of Trees
+
+A tree or free tree is a connected, acyclic, undirected graph. 树或自由树是一个连通的、无环路的无向图。
