@@ -36,7 +36,8 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 
 二叉树是在有限节点集上定义的结构，这些节点要么不包含节点，要么由三个不相交的节点集组成：根节点、称为左子树的二叉树和称为右子树的二叉树。因为二分树的子树可能不包含节点，我们称为 Empty Tree or Null Tree `NIL`，并且 child is absent or missing，即子节点缺失。而没有空节点的二分树称为 Full Binary Tree
 
-
+> some full binary trees are complete 2-ary trees，所谓的 k-ary tree 就是所有叶子都具有相同的深度，并且所有内部节点的度数为𝒌 的树结构。
+> k-ary tree 的节点数量为 1 + 𝑘 + 𝑘! + …+ 𝑘", n 为树的高度(Height)
 
 个人理解来说，二分树就是每个节点只会存在两个子节点的树结构。这样的约束给予了二分树一些特殊的性质。
 
