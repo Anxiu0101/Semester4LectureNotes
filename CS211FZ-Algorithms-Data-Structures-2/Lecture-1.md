@@ -22,3 +22,6 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 - 深度 Depth 描述的是节点的深度，查询时需要的次数
 - 高度 Height 描述的是整个树的高度，即最多的查询次数
 - Degree 用于描述某个节点拥有的子节点的数量，叶节点的 degree 为 0
+- Ancestor (祖先) 查询某个节点时经过的所有节点都是这个节点的 Ancestor
+- Descendant 与 Ancestor 对应，节点 x 为节点 y 的 Ancestor，则节点 y 为节点 x 的 Descendant，描述的是从某个节点可以抵达的所有节点
+- 
