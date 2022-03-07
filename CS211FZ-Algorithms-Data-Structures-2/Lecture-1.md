@@ -41,3 +41,18 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 
 个人理解来说，二分树就是每个节点只会存在两个子节点的树结构。这样的约束给予了二分树一些特殊的性质。
 
+### Binary Search Tree 二分查找树 BST
+
+二分查找树，就是在二分树的基础上再约定了，每个节点的子节点中，左子节点大于右子节点。
+
+## Operation
+
+### BST Operations - Tree Traversal BST树遍历
+
+- Depth-first Search (DFS) 
+	- In-order 
+		- Prints the root of a subtree between printing the values in its left subtree and printing those in its right subtree.
+	- Pre-order • Prints the roots before the values in either subtree.
+• Post-order • Prints the root after the values in its subtrees.
+• Breadth-first Search (BFS) • Prints all the keys in order on the current level before moving to the next
+depth (aka, level-order search)
