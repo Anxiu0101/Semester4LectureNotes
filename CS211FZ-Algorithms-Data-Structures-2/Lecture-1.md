@@ -49,10 +49,13 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 
 ### BST Operations - Tree Traversal BST树遍历
 
-- Depth-first Search (DFS) 
+- Depth-first Search (DFS) 深度优先查找
 	- In-order 
 		- Prints the root of a subtree between printing the values in its left subtree and printing those in its right subtree.
-	- Pre-order • Prints the roots before the values in either subtree.
-• Post-order • Prints the root after the values in its subtrees.
-• Breadth-first Search (BFS) • Prints all the keys in order on the current level before moving to the next
-depth (aka, level-order search)
+	- Pre-order 
+		- Prints the roots before the values in either subtree.
+	- Post-order 
+		- Prints the root after the values in its subtrees.
+- Breadth-first Search (BFS) 广度优先算法
+	- Prints all the keys in order on the current level before moving to the next depth (aka, level-order search)
+
