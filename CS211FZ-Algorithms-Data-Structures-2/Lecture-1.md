@@ -28,4 +28,38 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 - The root is the only node without a parent. 根节点没有父节点
 - 父子节点就是在同一条 edge 上的祖先节点与后代节点
 - 如果节点具有相同的父节点，则它们是同辈节点 (siblings)。
+<<<<<<< HEAD
 - 以节点为根的子树 (subtree) 是由该节点的后代引出的以该节点为根的树。
+=======
+- 以节点为根的子树 (subtree) 是由该节点的后代引出的以该节点为根的树。
+
+## Other Type Trees
+
+### Binary Tree 二分树
+
+二叉树是在有限节点集上定义的结构，这些节点要么不包含节点，要么由三个不相交的节点集组成：根节点、称为左子树的二叉树和称为右子树的二叉树。因为二分树的子树可能不包含节点，我们称为 Empty Tree or Null Tree `NIL`，并且 child is absent or missing，即子节点缺失。而没有空节点的二分树称为 Full Binary Tree
+
+> some full binary trees are complete 2-ary trees，所谓的 k-ary tree 就是所有叶子都具有相同的深度，并且所有内部节点的度数为𝒌 的树结构。
+> k-ary tree 的节点数量为 1 + 𝑘 + 𝑘! + …+ 𝑘", n 为树的高度(Height)
+
+个人理解来说，二分树就是每个节点只会存在两个子节点的树结构。这样的约束给予了二分树一些特殊的性质。
+
+### Binary Search Tree 二分查找树 BST
+
+二分查找树，就是在二分树的基础上再约定了，每个节点的子节点中，左子节点大于右子节点。
+
+## Operation
+
+### BST Operations - Tree Traversal BST树遍历
+
+- Depth-first Search (DFS) 深度优先查找
+	- In-order 
+		- Prints the root of a subtree between printing the values in its left subtree and printing those in its right subtree.
+	- Pre-order 
+		- Prints the roots before the values in either subtree.
+	- Post-order 
+		- Prints the root after the values in its subtrees.
+- Breadth-first Search (BFS) 广度优先算法
+	- Prints all the keys in order on the current level before moving to the next depth (aka, level-order search)
+
+>>>>>>> gitee/master
