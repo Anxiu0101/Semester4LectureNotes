@@ -1,0 +1,8 @@
+- `ls`（list files）: 列出目录及文件名
+- `cd`（change directory）：切换目录
+- `pwd`（print work directory）：显示目前的目录
+- `mkdir`（make directory）：创建一个新的目录
+- `rmdir`（remove directory）：删除一个空的目录
+- `cp`（copy file）: 复制文件或目录
+- `rm`（remove）: 删除文件或目录
+- `mv`（move file）: 移动文件与目录，或修改文件与目录的名称
