@@ -7,3 +7,8 @@
 - Case Study – Traditional Unix Scheduler and Fair Share Scheduler Concept 案例研究——传统的 Unix 调度器和公平共享调度器概念
 
 相应时间 $Response Ratio = (W + S)/S$
+
+抢占式调度 ==Preemptive Scheduling==  
+在多任务系统中用作调度基础的一种常见算法类型称为==轮询 Round Robin==。 选择轮循是因为它为所有进程提供了**良好的响应时间** ==good response time to all processes==，这对于在多任务系统中实现令人满意的交互性能很重要。
+
+抢占式调度 Round Robin 是FCFS的一个抢占式版本。每个进程轮流执行，直到它的量子过期，强制进行任务上下文切换。量子可以被改变，以便为特定的工作负载提供最佳结果。
