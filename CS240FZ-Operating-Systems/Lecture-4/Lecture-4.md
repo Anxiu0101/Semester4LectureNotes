@@ -6,4 +6,4 @@
 - Multilevel Feedback Queues 多级反馈队列
 - Case Study – Traditional Unix Scheduler and Fair Share Scheduler Concept 案例研究——传统的 Unix 调度器和公平共享调度器概念
 
-## 
+相应时间 $Response Ratio = (W + S)/S$
