@@ -1,3 +1,5 @@
+# Chapter 1
+
 Characteristic of interest 16 
 Classical approach to statistics 12 
 Descriptive statistics 12 

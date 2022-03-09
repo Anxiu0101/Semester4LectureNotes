@@ -28,6 +28,9 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 - The root is the only node without a parent. 根节点没有父节点
 - 父子节点就是在同一条 edge 上的祖先节点与后代节点
 - 如果节点具有相同的父节点，则它们是同辈节点 (siblings)。
+<<<<<<< HEAD
+- 以节点为根的子树 (subtree) 是由该节点的后代引出的以该节点为根的树。
+=======
 - 以节点为根的子树 (subtree) 是由该节点的后代引出的以该节点为根的树。
 
 ## Other Type Trees
@@ -59,3 +62,4 @@ A tree or free tree is a connected, acyclic, undirected graph. 树或自由树�
 - Breadth-first Search (BFS) 广度优先算法
 	- Prints all the keys in order on the current level before moving to the next depth (aka, level-order search)
 
+>>>>>>> gitee/master
