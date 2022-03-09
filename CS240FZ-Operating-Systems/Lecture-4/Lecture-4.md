@@ -50,6 +50,8 @@ i 表示第 i 个感兴趣的区间，j 表示进程 id。 如果仍在使用 CP
 
 > Fair-Share Scheduling
 
-
-
-
+该方案将需要对进程优先级计算进行一些更改，以将一定百分比的处理器时间分配给每组进程。 例如，如果有 k 个单独的组，每组具有不同的份额权重 Wk。
+	$$Pj(i) = Basej + CPUj(i)/2 + GCPUk(i) / 4xWk$$  
+其中 Wk 是分配给组 k 的 CPU 时间的权重 ==weighting==，使得 0 < Wk <=1 并且所有 Wk 的总和 = 1。  
+然后我们可以用同样的方式衰减 ==decay== GCPU  
+	$$GCPUk(i) = GCPUk(i-1)/2$$
