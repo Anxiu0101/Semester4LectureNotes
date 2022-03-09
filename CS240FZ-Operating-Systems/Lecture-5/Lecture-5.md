@@ -56,8 +56,7 @@ Other Scheduling Environments
 多处理器系统可以由处理器的异构或同构集合组成。
 使用同构处理器，所有处理器都可以为单个任务队列提供服务。 同构系统可以使用非对称或对称多处理。
 
-假设泊松到达 Poisson Arrical
-
+假设泊松到达 Poisson Arrivals 和指数服务分布 Exponential Service Distribution，如果系统任务的平均到达率是 $\lambda$，以及 $\um$ 是服务率，那么可以证明（通过 Litter's Law）平均停留时间或周转时间 $T$，通过以下公式
 
 
 
