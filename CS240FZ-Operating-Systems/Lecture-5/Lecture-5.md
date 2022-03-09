@@ -42,6 +42,10 @@ Other Scheduling Environments
 预计到达分布 arrive distribution 的一种方法可能是监控系统并注意任务到达之间的时间，然后使用统计技术，将概率公式拟合到数据中，以便我们可以估计在任何给定时间段内到达特定数量的可能性。
 例如，[[泊松分布 Poisson Distribution]] 可以与我们向计算机系统描述的到达过程一起使用，以便找到特定数量的任务在给定时间段内到达的概率。
 
+### Queuing Process & Service System
+
+
+
 
 
 如果服务系统繁忙，则将到达的任务置于排队系统中等待服务。
