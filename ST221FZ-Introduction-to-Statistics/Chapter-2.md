@@ -1,4 +1,4 @@
-Absolute variation| 38 
+Absolute variation 38 
 Arithmetic mean 34 
 Bar chart 22
 Boxplot 41 
@@ -28,3 +28,20 @@ Median 34
 Minimum 41 
 Modified boxplot 41
 Numerical distribution 24
+
+## 2.1 Pareto Diagrams and Dot Diagrams
+
+### Pareto Diagrams 帕累托图
+
+帕累托图将根据频率对**每种类型的故障或缺陷进行排序**，可以帮助工程师识别重要缺陷及其原因。 当公司将流程确定为改进的候选时，第一步是收集有关每种故障频率的数据。 例如，计算机控制的车床的性能低于标准，因此工人们会记录以下故障原因及其频率：
+ 
+ | error | number |
+ | ----- | ------ |
+ |       |        |
+ 
+ power fluctuations controller not stable
+operator error
+worn tool not replaced other
+6
+22 13 2
+5
