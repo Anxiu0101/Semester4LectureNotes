@@ -35,13 +35,21 @@ Numerical distribution 24
 
 帕累托图将根据频率对**每种类型的故障或缺陷进行排序**，可以帮助工程师识别重要缺陷及其原因。 当公司将流程确定为改进的候选时，第一步是收集有关每种故障频率的数据。 例如，计算机控制的车床的性能低于标准，因此工人们会记录以下故障原因及其频率：
  
- | error | number |
- | ----- | ------ |
- |       |        |
- 
- power fluctuations controller not stable
-operator error
-worn tool not replaced other
-6
-22 13 2
-5
+ | error                  | number |
+ |:---------------------- | ------:|
+ | power fluctuations     |      6 |
+ | controller not stable  |     22 |
+ | operator error         |     13 |
+ | worn tool not replaced |      2 |
+ | other                  |      5 |
+
+由此可以生成帕累托图如下：  
+![](Pasted%20image%2020220311083913.png)
+
+图中折现图表示了 defect 的累计百分比，以图形方式描述了帕累托的经验法则，即任何种类的事件都由几个主要元素和许多次要元素组成。
+
+
+
+
+
+
