@@ -14,7 +14,12 @@
 
 分为五步：
 - Requirements Definition 定义项目需求
+	- 收集有关所需功能（例如，软件系统应提供登录功能）和约束（例如，软件系统应使用 PostgreSQL 作为后端数据库，因为它与组织的现有 IT 基础设施兼容）的信息 
+	- 在给定一组预算、时间框架、资源、技能和可用技术的情况下，分析软件系统是否可以实现 
+	- 创建详细的系统规范
 - System & Software Design 系统和软件设计
+	- 将需求分配给硬件或软件系统 
+	- 建立整体系统架构（例如，识别和描述组件的接口及其关系等）
 - Implementation & Unit Testing 实现与单元测试
 - Integration & System Testing 集成与系统测试
 - Operation & Maintenance 运维
