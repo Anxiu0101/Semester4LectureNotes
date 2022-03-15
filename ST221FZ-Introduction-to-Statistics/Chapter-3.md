@@ -1,4 +1,7 @@
 Additive set function 69 
+加法集合函数
+
+
 Axioms of probability 70 
 Bayes’ theorem 86 
 Classical probability concept 67 
