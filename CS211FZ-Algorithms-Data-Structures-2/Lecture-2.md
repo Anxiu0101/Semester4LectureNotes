@@ -11,10 +11,24 @@
 
 ## AVL
 
+
+
 ## Red-Black Tree
+
+- 红黑树是AVL树的替代品，因此红黑树也是一种自平衡二叉搜索树
+- 红黑树上的操作在最坏情况下需要$O(\lg{N})$时间，并且高度为红黑树最多为$2\lg{(N+1)}$ 
+- 红黑树中的每个节点都需要一个额外的位来存储节点的颜色，可以是红色或黑色
+- 红黑树确保没有路径从根到叶的长度是其他长度的两倍以上，因此树是近似平衡的
+
 - A red-black tree is self-balancing binary search tree  
+	红黑树是自平衡二叉搜索树
 - One extra bit is needed for each node to store the colour of the node  
+	每个节点需要一个额外的位来存储节点的颜色
 - A node can only be coloured either red or black  
+	节点只能着色为红色或黑色
 - Red-black trees have relatively low overhead for insertion  
+	红黑树的插入开销相对较低
 - In practice, rotations occur relatively infrequently compared to AVL trees  
-- Using red-black trees can avoid side-overweighted subtrees
+	在实践中，与 AVL 树相比，旋转发生的频率相对较低
+- Using red-black trees can avoid side-overweighted subtrees  
+	使用红黑树可以避免边权重过大的子树
