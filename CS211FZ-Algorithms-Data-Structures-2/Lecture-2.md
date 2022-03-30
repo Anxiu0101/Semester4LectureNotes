@@ -27,6 +27,8 @@
 
 ## Red-Black Tree
 
+### Feature
+
 - 红黑树是AVL树的替代品，因此红黑树也是一种自平衡二叉搜索树
 - 红黑树上的操作在最坏情况下需要$O(\lg{N})$时间，并且高度为红黑树最多为$2\lg{(N+1)}$ 
 - 红黑树中的每个节点都需要一个额外的位来存储节点的颜色，可以是红色或黑色
@@ -34,7 +36,7 @@
 
 
 
-
+### Summary
 
 - A red-black tree is self-balancing binary search tree  
 	红黑树是自平衡二叉搜索树
