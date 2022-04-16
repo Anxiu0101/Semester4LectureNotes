@@ -15,3 +15,9 @@ And that the probability that the random variable will take on a value in the su
 $$
 P(a \leq X \leq b) = \sum_{i=1}^{m}f(x_i)\Delta x_i
 $$
+When f is an <u>integrable function</u>==可积函数== defined for all values of the random variable with which we are concerned, we shall define the probability that the value of the random variable falls between a
+and b by letting ∆x→ 0. Namely,
+
+
+
+The function f are called probability density function or probability density.
