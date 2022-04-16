@@ -30,7 +30,11 @@ $$
 The probability density satisfies:
 
 1. $$
-   f(x) \geq 0\ for\
+   f(x) \geq 0\ for\ all\ x;
    $$
 
-2. 
+2. $$
+   \int^{\dint}
+   $$
+
+3. 
