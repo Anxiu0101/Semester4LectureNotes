@@ -23,3 +23,14 @@ $$
 
 The function f are called <u>probability density function or probability density</u> ==概率密度函数或概率密度== 
 
+It is clear that
+$$
+P(a \leq X \leq b) = P(a \leq X < b) = P(a < X \leq b) = P(a < X < b)
+$$
+The probability density satisfies:
+
+1. $$
+   f(x) \geq 0\ for\
+   $$
+
+2. 
