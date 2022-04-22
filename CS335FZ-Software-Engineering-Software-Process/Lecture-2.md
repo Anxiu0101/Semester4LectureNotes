@@ -41,10 +41,10 @@
 ### The V-Model
 
 - 由于模型的刚性，简单易管理。Easy to manage.
-- 它鼓励在所有阶段进行验证和确认。Encourage validation and 
-- 它对开发和测试给予同等重视。
+- 它鼓励在所有阶段进行验证和确认。Encourage validation and check
+- 它对开发和测试给予同等重视。Give same weight of development and test
 - 但不合适使用在一个中高危险改变的需求场景中
-- 不建议在长期的复杂面向对象项目中。
+- 不建议在长期的复杂面向对象项目中 Not suggest in complex OO Program
 
 ![](Pasted%20image%2020220314144224.png)
 
