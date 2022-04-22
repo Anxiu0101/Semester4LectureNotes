@@ -50,7 +50,7 @@
   应该放手人们开发自己的工作方式，而不是提供规定的过程。
   利用并探索团队成员的技能和知识，相信他们。
 
-#### eXtreme Programming
+### eXtreme Programming
 
 XP是一种软件开发的风格，专注于卓越的编程技术应用，清晰的沟通和团队合作。
 
@@ -103,9 +103,9 @@ XP是一种软件开发的风格，专注于卓越的编程技术应用，清晰
   14. Accepted Responsibility 接受责任分配
       - Responsibility cannot be assigned; it can only be accepted
 
-### XP Workflow ~XP工作流~
+#### XP Workflow ~XP工作流~
 
-#### Terminology: User Story
+##### Terminology: User Story
 
 - Agile methods do not usually have a separate requirements engineering activity, rather integrate it with development. 敏捷开发通常不具有一个分离出来的需求工程活动，而是集成 `User Story` 到开发中。
 - User stories are often written on <u>user story index cards</u>==用户事物索引卡==.
@@ -120,7 +120,8 @@ XP是一种软件开发的风格，专注于卓越的编程技术应用，清晰
     - So that \<value\> (why) 
     - It may also include Acceptance Criteria and Comments
 
-### XP – Planning the Release ~XP-规划与发布~
+#### XP – Planning the Release ~XP-规划与发布~
 
 ![XP Activity Diagram](Lecture-3.assets/image-20220422083121197.png)
 
+### Scrum
