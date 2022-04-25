@@ -41,3 +41,10 @@ The probability density satisfies:
 > We define the cumulative distribution function (or distribution function) F(x) be the probability that a random variable with the probability density f(x) takes on a value less than or equal to x, that is we let F(x) = P(X≤ x) which is the area under the probability density function over the interval −∞ to x.
 > In the usual calculus notation for the integral.
 
+So it's clear that,
+
+1. $$
+   F(x) = P(X \leq x) = 
+   $$
+
+2. 
