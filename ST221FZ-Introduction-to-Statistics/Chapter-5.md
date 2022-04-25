@@ -44,7 +44,16 @@ The probability density satisfies:
 So it's clear that,
 
 1. $$
-   F(x) = P(X \leq x) = 
+   F(x) = P(X \leq x) = \int^{x}_{-\infty}f(t)dt
    $$
 
-2. 
+2. $$
+   P(a \leq x \leq b) = \int^{b}_{a}f(x)dx=F(b)-F(a)
+   $$
+
+3. $$
+   \frac{dF(x)}{dx}=f(x)
+   $$
+
+
+a
