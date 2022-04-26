@@ -60,6 +60,7 @@ So it's clear that,
 >
 > If a random variable has the probability density
 > $$
+<<<<<<< HEAD
 > f(x) = \left\{
 > \begin{aligned}
 > &2e^{-2x} &\ x > 0\\
@@ -73,3 +74,11 @@ So it's clear that,
 > 2. Greater that 0.5
 > 3. Find the distribution function
 > 4. Determine the probability that the random variable will take on a value less than or equal to 1.
+=======
+> f(x) = \left\
+> \begin{aligned}
+> \end{aligned}
+> \right
+> $$
+> 
+>>>>>>> gitee/master
