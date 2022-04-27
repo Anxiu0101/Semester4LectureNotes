@@ -60,9 +60,16 @@ So it's clear that,
 >
 > If a random variable has the probability density
 > $$
-> f(x) = \left\
+> f(x) = \left\{
 > \begin{aligned}
+> &2e^{-2x} &\ x > 0\\
+> &0 &\ x\geq 0\\
 > \end{aligned}
-> \right
+> \right.
 > $$
-> 
+> find the probabilities that it will take on a value
+>
+> 1. Between 1 and 3
+> 2. Greater that 0.5
+> 3. Find the distribution function
+> 4. Determine the probability that the random variable will take on a value less than or equal to 1.
