@@ -63,7 +63,7 @@ So it's clear that,
 > f(x) = \left\{
 > \begin{aligned}
 > &2e^{-2x} &\ x > 0\\
-> &0 &\ x\geq 0\\
+> &0 &\ x\leq 0\\
 > \end{aligned}
 > \right.
 > $$
@@ -73,3 +73,34 @@ So it's clear that,
 > 2. Greater that 0.5
 > 3. Find the distribution function
 > 4. Determine the probability that the random variable will take on a value less than or equal to 1.
+>
+> 
+>
+> Solution: 
+>
+> 1. $$
+>    P_1 = F(3) - F(1) = \int_{1}^{3}2e^{-2x}dx=
+>    $$
+>
+> 2. 
+
+> #### Example 5.2
+>
+> 略
+
+> #### Definition 5.2
+>
+> The mean of a probability density is defined by
+> $$
+> \mu = E(x) = \int_{-\infty}^{\infty}xf(x)dx
+> $$
+> And the variance of a probability density is defined by
+> $$
+> \sigma^2 = \int_{-\infty}^{\infty}(x-\mu)^2f(x)dx = \int_{-\infty}^{\infty}x^2f(x)dx-\mu^2
+> $$
+
+
+d
+
+a
+
