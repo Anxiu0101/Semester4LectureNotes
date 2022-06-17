@@ -10,4 +10,11 @@ One essential and widely used model in software engineering is the Waterfall Mod
 There are five stage of the Waterfall model, 
 
 1. Requirements Definition
-2. System & Software Desig
+2. System & Software Design
+3. Implementation & Unit Testing
+4. Integration & System Testing
+5. Operation & Maintenance
+
+And the Advantages of the Waterfall model are, 
+![image-20220618055147982](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206180551049.png)
+
