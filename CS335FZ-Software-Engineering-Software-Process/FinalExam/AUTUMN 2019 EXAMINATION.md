@@ -25,3 +25,27 @@ Consider the following specification text: ‘‘John is a computer user who wan
 1. Draw a sequence diagram based on the specification above. [10 marks]
 2. Draw a collaboration diagram based on the specification above [10 marks]
 3. Highlight the main differences between a sequence and a collaboration diagram. You may reference your answers to a) and b) above. [5 marks]
+
+### Q2.1
+>  [[Sequence Diagram]]
+
+
+### Q2.2
+> [[Collaboration Diagram]]
+
+
+### Q2.3
+
+The difference between sequence diagram and collaboration diagram is that, 
+
+
+
+## Q3
+
+1. Describe the different types of relationship between classes in a UML Class Diagram and create an example for each in UML (association, aggregation, composition, inheritance). [12 marks]
+2. Using an ATM as an example, describe three functional requirements and two non-functional requirements. [5 marks]
+3. Describe a scenario, based on a concrete example, where the adapter design pattern is needed. [8 marks]
+
+### Q3.1
+
+##
