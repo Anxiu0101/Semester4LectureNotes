@@ -16,5 +16,7 @@ There are five stage of the Waterfall model,
 5. Operation & Maintenance
 
 And the Advantages of the Waterfall model are, 
+
+### Q1.2
 ![image-20220618055147982](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206180551049.png)
 
