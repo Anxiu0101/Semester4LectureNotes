@@ -5,6 +5,8 @@ One essential and widely used model in software engineering is the Waterfall Mod
 
 ### Q1.1
 
+> [[Waterfall Model]]
+
 ![image-20220618054810922](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206180548571.png)
 
 There are five stage of the Waterfall model, 
@@ -48,4 +50,6 @@ The difference between sequence diagram and collaboration diagram is that,
 
 ### Q3.1
 
-##
+### Q3.2
+
+### Q3.3
