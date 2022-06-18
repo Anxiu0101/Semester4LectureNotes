@@ -22,7 +22,6 @@ And the Advantages of the Waterfall model are,
 
 ## Q2
 Consider the following specification text: ‘‘John is a computer user who wants to check his email using the Thunderbird email application. When he clicks on the ‘Get Messages’ button, the server will send any unsent emails. It then checks for new emails and the server returns a corresponding response. If there are new emails, these will then be downloaded and displayed.”
-a) Draw a sequence diagram based on the specification above. [10 marks]
-b) Draw a collaboration diagram based on the specification above [10 marks]
-c) Highlight the main differences between a sequence and a collaboration diagram. You may reference your answers to a) and b) above. [5
-marks]
+1. Draw a sequence diagram based on the specification above. [10 marks]
+2. Draw a collaboration diagram based on the specification above [10 marks]
+3. Highlight the main differences between a sequence and a collaboration diagram. You may reference your answers to a) and b) above. [5 marks]
