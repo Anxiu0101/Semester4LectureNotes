@@ -20,15 +20,31 @@ Behavior：Generalization、Association、Dependency、Realization、Composition
 #### Generalization
 
 Generalization represents an “is-a” relationship. In this example, it can be read as a Manager is a type of User; a Developer is a type of User. The children class (Manager and Developer) automatically inherits the properties of their parent class. 
-泛化表示“is-a”关系。 在本例中，可以将 Manager 理解为 User 的一种类型； 开发人员是一种用户。 子类（Manager 和 Developer）自动继承其父类的属性。
+泛化表示“is-a”关系。 在本例中，可以将 Manager 理解为 User 的一种类型； 开发人员是一种用户。 子类（Manager 和 Developer）自动继承其父类的属性。  
+这种关系在 UML 中使用 空心三角箭头表示
 
 ```puml
 class User {
-	id uint
-	name string
+	+ id uint
+	+ name string
+	--Get Set Method--
+	+ getName() string
 }
 
-class 
+class Manager {
+	+ Authority int
+	--Get Set Method--
+	+ getAuthority() int
+}
+
+class Developer {
+	+ Level int
+	--Get Set Method--
+	+ getLevel() int
+}
+
+Manager --|> User
+Developer --|> User
 ```
 
 #### Association
