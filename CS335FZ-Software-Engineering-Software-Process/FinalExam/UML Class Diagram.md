@@ -80,3 +80,22 @@ GroupRouter ..|> IRouter
 
 $$Composition \subset Aggregation \subset Association$$
 
+An Association relationship represents connections or associations between object in the system. 关联关系代表系统中对象之间的连接或关联。
+
+```puml
+class Teacher{}
+class Student{}
+
+
+```
+
+An Aggregation is a subtype of an association relationship. It can be described as a ‘part of’ relationship. In Aggregation relationship, objects have separate lifetimes. 聚集是关联关系的子类型。 它可以被描述为“关系的一部分”。 在聚合关系中，对象具有单独的寿命。
+
+A Composition is a subtype of an aggregation relationship. It represents a ‘whole/part’ relationship. If a composite is removed, all its associated parts will also be removed with it. 组成是聚集关系的亚型。 它代表了“整体/部分”的关系。 如果删除了复合材料，则其所有相关零件也将使用它去除。
+
+
+
+
+
+
+
