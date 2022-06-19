@@ -111,6 +111,12 @@ A deliverable is Project results delivered to customers, e.g. a security report.
 
 ### Q4.3
 
-> [[Project Management#Risk Management|Risk Management]]
+> [[Project Management#Risk Management|Risk Management]]  
+> [[Project Management#Risk management process|Risk Management Process]]
 
 Risk Management is Identifying risks and drawing plans to minimize their negative effects 识别风险并制定计划以尽量减少其负面影响
+
+- Risk identification of project/product/business risks 项目/产品/业务风险的风险识别
+- Risk analysis assesses likelihood and consequences of risks 风险分析评估风险的可能性和后果
+- Risk planning creates a plan to avoid the risk or minimise its effects 风险规划创建一个计划来避免风险或最小化其影响
+- Risk monitoring checks risks regularly and plans for mitigation and revision (when e.g. more information is available) 风险监控定期检查风险并制定缓解和修订计划（例如，当有更多信息可用时）
