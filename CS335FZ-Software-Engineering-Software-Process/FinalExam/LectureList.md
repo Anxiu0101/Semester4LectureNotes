@@ -42,7 +42,7 @@ Interaction Modelling 交互建模
 
 OO面向对象 DFD? E-R Diagram 实体关系图
 
-## Lecture-8 Design Patterns
+## Lecture-8 [[Design Patterns]]
 
 设计模式
 

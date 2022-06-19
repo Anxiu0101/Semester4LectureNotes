@@ -78,3 +78,5 @@ Non-functional requirements:
 - The system shall collect up to 15,000 even/sec from approximately 300 web servers.
 
 ### Q3.3
+
+> [[Design Patterns#Adapter Pattern|Adapter Pattern]]
