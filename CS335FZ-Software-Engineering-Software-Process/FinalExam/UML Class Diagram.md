@@ -21,7 +21,7 @@ Behavior：Generalization、Association、Dependency、Realization、Composition
 
 Generalization represents an “is-a” relationship. In this example, it can be read as a Manager is a type of User; a Developer is a type of User. The children class (Manager and Developer) automatically inherits the properties of their parent class. 
 泛化表示“is-a”关系。 在本例中，可以将 Manager 理解为 User 的一种类型； 开发人员是一种用户。 子类（Manager 和 Developer）自动继承其父类的属性。  
-这种关系在 UML 中使用 空心三角箭头表示
+这种关系在 UML 中使用 空心三角箭头表示。
 
 ```puml
 class User {
@@ -49,6 +49,17 @@ Developer --|> User
 
 #### Association
 #### Dependency
+
+Dependency represents the relationship between entities in which if the changes to the definition of one entity may cause changes to the other entities. This can be `<<use>>, <<import>>, <<depend>>, <<refine>>, <<extend>>, <<include>>, <<access>>, <<instanceOf>>, <<bind>>, <<instantiate>>, etc.`  
+依赖关系表示实体之间的关系，如果对一个实体的定义进行更改，可能会导致对其他实体的更改。  
+```puml
+class Main {
+	+ main()
+}
+
+Main **> java.util.Scanner: <<import>>
+```
+
 #### Realization
 #### Composition
 #### Aggregation
