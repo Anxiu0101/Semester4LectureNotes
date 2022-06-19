@@ -82,5 +82,17 @@ Non-functional requirements:
 > [[Design Patterns#Adapter Pattern|Adapter Pattern]]
 
 scenario: Multiple database accessors.
-I'm using gorm on my development now. It's an orm library, and you can use it connect to databases include mysql, postgresql, sqlite and so on.
+I'm using gorm on my development now. It's an ORM library, and you can use it connect to databases include mysql, postgresql, sqlite and so on.
 But all the data send and return as a map type. And we should use the adapter to translate it to different format message and pass to different databases. In that case, we will use a same api to deal with different response from database.
+
+## Q4
+
+The table below shows activities, their duration, and activity interdependencies.
+
+![image-20220619201351688](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206192013813.png)
+
+1. Given this information, draw the corresponding activity network. You can assume that the project start date is today. Clearly highlight the critical path in your diagram. [15 marks]
+2. In relation to software project management, what is: 
+	1. a milestone
+	2. a deliverable
+3. What is risk management and what typical activities does risk management involve? [5 marks]
