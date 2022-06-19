@@ -32,10 +32,12 @@ Consider the following specification text: ‘‘John is a computer user who wan
 >  [[Sequence Diagram]]
 ```puml
 skinparam sequenceMessageAlign center
+autonumber
 John -> Thunderbird: Get Messages
 Thunderbird -> John: send unsent emails
 Thunderbird -> Server: Checks for new emails
-Server -> Thunderbird: A corresponding response
+alt new emails
+Server -> Thunderbird: downloaded and displayed
 ```
 
 ### Q2.2
