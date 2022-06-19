@@ -82,5 +82,5 @@ Non-functional requirements:
 > [[Design Patterns#Adapter Pattern|Adapter Pattern]]
 
 scenario: Multiple database accessors.
-I'm using gorm on my development now. It's an gorm library, and you can use it connect to databases include mysql, postgresql, sqlite and so on.
-But all the data returns as a map.
+I'm using gorm on my development now. It's an orm library, and you can use it connect to databases include mysql, postgresql, sqlite and so on.
+But all the data send and return as a map type. And we should use the adapter to translate it to different format message and pass to different databases. In that case, we will use a same api to deal with different response from database.
