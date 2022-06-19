@@ -9,7 +9,7 @@ Behavior 由带箭头或其他符号的线表示，包括 Sequence、Communicati
 UML 类图表示的是系统组织的静态关系
 主要有以下几种成分，
 Structure：Class、Abstract Class、Interface
-Behavior：Generalization、Association、Dependency、Realization、Composition、Aggregation
+Behavior：[[#Generalization]]、[[#Dependency]]、[[#Realization]]、[[#Association Aggregation and Composition]]
 
 ![image-20220619162501704](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206191626062.png)
 
@@ -47,7 +47,6 @@ Manager --|> User
 Developer --|> User
 ```
 
-#### Association
 #### Dependency
 
 Dependency represents the relationship between entities in which if the changes to the definition of one entity may cause changes to the other entities. This can be `<<use>>, <<import>>, <<depend>>, <<refine>>, <<extend>>, <<include>>, <<access>>, <<instanceOf>>, <<bind>>, <<instantiate>>, etc.`  
@@ -77,5 +76,7 @@ class GroupRouter {
 GroupRouter ..|> IRouter
 ```
 
-#### Composition
-#### Aggregation
+#### Association, Aggregation and Composition
+
+
+
