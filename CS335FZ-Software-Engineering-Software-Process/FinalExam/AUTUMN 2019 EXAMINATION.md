@@ -61,13 +61,13 @@ The difference between sequence diagram and collaboration diagram is that,
 
 ### Q3.1
 
-> [[UML Class Diagram#Association Aggregation and Composition|Relation]]
+> [[UML Class Diagram#Association Aggregation and Composition|Relation]]  
+> [[UML Class Diagram#Generalization|Inheritance]]  
 > 三个主要的关系和集成，话说这个单词丢出来我哪里知道是继承啊QAQ
 
 
-
-
-
 ### Q3.2
+
+
 
 ### Q3.3

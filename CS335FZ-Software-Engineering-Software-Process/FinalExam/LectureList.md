@@ -5,6 +5,8 @@
 - Be able to apply the main requirements engineering techniques to simple software system projects
 主要是关于需求的一些知识点
 
+[[Functional Requirements and Non-functional Requirements]]
+
 
 ## Lecture-5 Systems Modelling
 
