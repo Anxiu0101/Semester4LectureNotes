@@ -18,10 +18,19 @@ Understand why we need to
 - Apply UML to system modelling
 关于 UML 类图的知识点
 
+User Story User Case
+
 ## Lecture-6 Architectural Design
 
 主要关于架构设计的知识点，包括 MVC
 
 ## Lecture-7 Systems Analysis and Design
 
+- The GRASP principles can be used as a tool to help master the basics of OOD and understanding responsibility assignment in object design.
+- GRASP follows the idea of responsibility-driven design, thinking about how to assign responsibilities to collaborating objects.
+- GRASP and SOLID largely overlap.
+
 OO面向对象 DFD? E-R Diagram 实体关系图
+
+## Lecture-8 Design Patterns
+
