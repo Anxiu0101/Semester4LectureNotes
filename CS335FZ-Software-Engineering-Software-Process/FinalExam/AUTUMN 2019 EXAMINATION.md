@@ -110,3 +110,7 @@ A Milestones is that
 A deliverable is Project results delivered to customers, e.g. a security report. 交付给客户的项目结果，例如 一份安全报告。
 
 ### Q4.3
+
+> [[Project Management#Risk Management|Risk Management]]
+
+Risk Management is Identifying risks and drawing plans to minimize their negative effects 识别风险并制定计划以尽量减少其负面影响
