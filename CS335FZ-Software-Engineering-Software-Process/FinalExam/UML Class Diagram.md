@@ -61,5 +61,21 @@ Main ..> java.util.Scanner: <<import>>
 ```
 
 #### Realization
+
+In a realization relationship, an `<<interface>>` stereotype is used to create an interface and to realize the particular interface.  
+在实现关系中，`<<interface>>` 构造型用于创建接口并实现特定接口。
+
+```puml
+interface IRouter {
+	+ GET(string, HandlerFunc) IRouter
+	+ POST(string, HandlerFunc) IRouter
+}
+
+class GroupRouter {
+}
+
+GroupRouter ..|> IRouter
+```
+
 #### Composition
 #### Aggregation
