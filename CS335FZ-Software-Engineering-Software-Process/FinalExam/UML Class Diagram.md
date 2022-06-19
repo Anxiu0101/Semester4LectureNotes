@@ -11,6 +11,8 @@ UML 类图表示的是系统组织的静态关系
 Structure：Class、Abstract Class、Interface
 Behavior：Generalization、Association、Dependency、Realization、Composition、Aggregation
 
+![image-20220619162501704](C:/Users/Quacks/AppData/Roaming/Typora/typora-user-images/image-20220619162501704.png)
+
 ### Structure
 
 ### Behavior
