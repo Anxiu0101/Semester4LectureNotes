@@ -16,6 +16,9 @@ Understand why we need to
 	- Behaviour models
 - Understand the principal diagram types in the Unified Modeling Language (UML)
 - Apply UML to system modelling
+
+
+
 关于 UML 类图的知识点
 
 User Story User Case
