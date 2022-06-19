@@ -7,6 +7,11 @@
 
 ## Adapter Pattern
 
+Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. 将一个类的接口转化成所需的另一个预期接口。适配器使得那些因为接口不兼容的类共同工作。
 
+使用场景：
+- Use an existing class, but its interface does not match the one you need. 
+- Create a reusable class that cooperates with unrelated or unforeseen classes, that is, classes that don't necessarily have compatible interfaces.
+- Use several existing subclasses, but it's impractical to adapt their interface by subclassing everyone. An object adapter can adapt the interface of its parent class.
 
 ## Observer Pattern
