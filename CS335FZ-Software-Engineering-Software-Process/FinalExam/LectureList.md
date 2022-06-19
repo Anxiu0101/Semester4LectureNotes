@@ -20,6 +20,11 @@ Understand why we need to
 
 User Story User Case
 
+Interaction Modelling 交互建模
+- Interaction Overview Diagram
+- Communication Diagram
+- [[Sequence Diagram]]
+
 ## Lecture-6 Architectural Design
 
 主要关于架构设计的知识点，包括 MVC
@@ -44,3 +49,4 @@ OO面向对象 DFD? E-R Diagram 实体关系图
 
 ## Lecture-10 UI & UX Design
 User Interface (UI) Design & User Experience (UX) Design
+就是 UI 设计的知识点
