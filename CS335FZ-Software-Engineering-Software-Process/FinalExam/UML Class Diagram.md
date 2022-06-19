@@ -57,7 +57,7 @@ class Main {
 	+ main()
 }
 
-Main **> java.util.Scanner: <<import>>
+Main ..> java.util.Scanner: <<import>>
 ```
 
 #### Realization
