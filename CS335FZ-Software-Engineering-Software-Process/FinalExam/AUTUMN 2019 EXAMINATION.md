@@ -37,7 +37,10 @@ John -> Thunderbird: Get Messages
 Thunderbird -> John: send unsent emails
 Thunderbird -> Server: Checks for new emails
 alt new emails
-Server -> Thunderbird: downloaded and displayed
+	Server -> Thunderbird: Downloaded and displayed
+else no new email
+	Server -> Thunderbird: A corresponding response
+end
 ```
 
 ### Q2.2
