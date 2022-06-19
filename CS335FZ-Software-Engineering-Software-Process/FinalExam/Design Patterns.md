@@ -14,6 +14,8 @@ Convert the interface of a class into another interface clients expect. Adapter 
 - Create a reusable class that cooperates with unrelated or unforeseen classes, that is, classes that don't necessarily have compatible interfaces.
 - Use several existing subclasses, but it's impractical to adapt their interface by subclassing everyone. An object adapter can adapt the interface of its parent class.
 
+其实理解起来不难，就像电源适配器一样，适配器的使用就是既能干一件事情，又能干另一件事情的存在。
+
 具体案例：
 - Multiple database accessors 
 - Use toolkit classes that have incompatible interfaces
