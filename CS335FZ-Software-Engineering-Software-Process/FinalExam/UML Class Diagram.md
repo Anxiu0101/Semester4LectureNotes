@@ -86,13 +86,27 @@ An Association relationship represents connections or associations between objec
 class Teacher{}
 class Student{}
 
-
+Student "1..*"-"1..*" Teacher
 ```
 
 An Aggregation is a subtype of an association relationship. It can be described as a ‘part of’ relationship. In Aggregation relationship, objects have separate lifetimes. 聚集是关联关系的子类型。 它可以被描述为“关系的一部分”。 在聚合关系中，对象具有单独的寿命。
+例子中，轮子属于车子的一部分，但是不会因为车子的消失而消失，作为客观的一部分实体存在
+
+```puml
+class Car{}
+class Wheel{}
+
+Wheel --o Car
+```
 
 A Composition is a subtype of an aggregation relationship. It represents a ‘whole/part’ relationship. If a composite is removed, all its associated parts will also be removed with it. 组成是聚集关系的亚型。 它代表了“整体/部分”的关系。 如果删除了复合材料，则其所有相关零件也将使用它去除。
 
+```puml
+class Person{}
+class Heart{}
+
+Heart --* Person
+```
 
 
 
