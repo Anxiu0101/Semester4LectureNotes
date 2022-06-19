@@ -96,3 +96,11 @@ The table below shows activities, their duration, and activity interdependencies
 	1. a milestone
 	2. a deliverable
 3. What is risk management and what typical activities does risk management involve? [5 marks]
+
+### Q4.1
+
+### Q4.2
+
+> [[Project Management]]
+
+### Q4.3
