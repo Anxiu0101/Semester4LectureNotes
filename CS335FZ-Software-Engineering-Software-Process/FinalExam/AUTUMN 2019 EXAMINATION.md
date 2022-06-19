@@ -101,6 +101,12 @@ The table below shows activities, their duration, and activity interdependencies
 
 ### Q4.2
 
-> [[Project Management]]
+> [[Project Management#Milestones and Deliverables|Milestones and Deliverables]]
+
+A Milestones is that
+- Points in the schedule which allow us to assess the progress; 时间表中允许我们评估进度的要点；
+- An end-point of a process activity 过程活动的终点
+
+A deliverable is Project results delivered to customers, e.g. a security report. 交付给客户的项目结果，例如 一份安全报告。
 
 ### Q4.3
