@@ -63,8 +63,6 @@ The difference between sequence diagram and collaboration diagram is that,
 
 > [[UML Class Diagram#Association Aggregation and Composition|Relation]]  
 > [[UML Class Diagram#Generalization|Inheritance]]  
-> 三个主要的关系和集成，话说这个单词丢出来我哪里知道是继承啊QAQ
-
 
 ### Q3.2
 
@@ -73,7 +71,7 @@ The difference between sequence diagram and collaboration diagram is that,
 Functional requirements: 
 - User can take money form ATM
 - User can store money on ATM
-- User can 
+- User can check his balance in account
 
 Non-functional requirements: 
 - Server and database should open the session to keep if one step fail, the data can return to the original state.
