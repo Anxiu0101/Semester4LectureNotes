@@ -78,5 +78,5 @@ GroupRouter ..|> IRouter
 
 #### Association, Aggregation and Composition
 
-
+$$Composition \subset Aggregation \subset Association$$
 
