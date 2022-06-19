@@ -61,6 +61,8 @@ The difference between sequence diagram and collaboration diagram is that,
 
 ### Q3.1
 
+> [[UML Class Diagram]]
+
 ### Q3.2
 
 ### Q3.3
