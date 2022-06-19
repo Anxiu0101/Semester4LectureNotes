@@ -70,9 +70,13 @@ The difference between sequence diagram and collaboration diagram is that,
 
 > [[Functional Requirements and Non-functional Requirements]]
 
-Function requirements: 
+Functional requirements: 
 - User can take money form ATM
 - User can store money on ATM
 - User can 
+
+Non-functional requirements: 
+- Server and database should open the session to keep if one step fail, the data can return to the original state.
+- The system shall collect up to 15,000 even/sec from approximately 300 web servers.
 
 ### Q3.3
