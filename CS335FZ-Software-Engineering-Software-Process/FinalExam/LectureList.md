@@ -34,3 +34,13 @@ OO面向对象 DFD? E-R Diagram 实体关系图
 
 ## Lecture-8 Design Patterns
 
+设计模式
+
+- 单例模式 Singleton Pattern
+- 工厂模式 Factory Method Pattern
+- 外观模式 Façade Pattern 就是封装吧
+- 适配器模式 Adapter Pattern
+- 观察者模式 Observer Pattern 主要是对于服务过程中的监控
+
+## Lecture-10 UI & UX Design
+User Interface (UI) Design & User Experience (UX) Design
