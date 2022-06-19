@@ -31,10 +31,11 @@ Consider the following specification text: ‘‘John is a computer user who wan
 ### Q2.1
 >  [[Sequence Diagram]]
 ```puml
+skinparam sequenceMessageAlign center
 John -> Thunderbird: Get Messages
 Thunderbird -> John: send unsent emails
 Thunderbird -> Server: Checks for new emails
-Server -> Thunderbird: A corres
+Server -> Thunderbird: A corresponding response
 ```
 
 ### Q2.2
