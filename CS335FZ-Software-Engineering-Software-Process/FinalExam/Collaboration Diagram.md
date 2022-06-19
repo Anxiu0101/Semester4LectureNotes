@@ -1,0 +1,1 @@
+Same as Communication Diagram 通信图
