@@ -30,7 +30,9 @@ Consider the following specification text: ‘‘John is a computer user who wan
 
 ### Q2.1
 >  [[Sequence Diagram]]
-
+```puml
+John -> Thunderbird: Get Messages
+```
 
 ### Q2.2
 > [[Collaboration Diagram]]
