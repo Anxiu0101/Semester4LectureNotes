@@ -32,6 +32,9 @@ Consider the following specification text: ‘‘John is a computer user who wan
 >  [[Sequence Diagram]]
 ```puml
 John -> Thunderbird: Get Messages
+Thunderbird -> John: send unsent emails
+Thunderbird -> Server: Checks for new emails
+Server -> Thunderbird: A corres
 ```
 
 ### Q2.2
