@@ -80,3 +80,7 @@ Non-functional requirements:
 ### Q3.3
 
 > [[Design Patterns#Adapter Pattern|Adapter Pattern]]
+
+scenario: Multiple database accessors.
+I'm using gorm on my development now. It's an gorm library, and you can use it connect to databases include mysql, postgresql, sqlite and so on.
+But all the data returns as a map.
