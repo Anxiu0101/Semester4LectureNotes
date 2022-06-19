@@ -68,6 +68,11 @@ The difference between sequence diagram and collaboration diagram is that,
 
 ### Q3.2
 
+> [[Functional Requirements and Non-functional Requirements]]
 
+Function requirements: 
+- User can take money form ATM
+- User can store money on ATM
+- User can 
 
 ### Q3.3
