@@ -18,4 +18,10 @@ Understand why we need to
 - Apply UML to system modelling
 关于 UML 类图的知识点
 
-## Lecture-6 
+## Lecture-6 Architectural Design
+
+主要关于架构设计的知识点，包括 MVC
+
+## Lecture-7 Systems Analysis and Design
+
+OO面向对象 DFD? E-R Diagram 实体关系图
