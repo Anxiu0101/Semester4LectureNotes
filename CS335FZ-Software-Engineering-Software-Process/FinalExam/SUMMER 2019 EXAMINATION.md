@@ -12,8 +12,14 @@ Draw the use-case diagram for this description.
 
 > [[Use Case]]
 
-```
+```puml
+skinparam actorStyle awesome
+package DublinAirportSystem {
+	usecase check-in 
+	usecase group-check-in
+}
 
+:User: --> LoginService
 ```
 
 
