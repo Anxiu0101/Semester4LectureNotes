@@ -14,12 +14,16 @@ Draw the use-case diagram for this description.
 
 ```puml
 skinparam actorStyle awesome
+left to right direction
 package DublinAirportSystem {
-	usecase check-in 
-	usecase group-check-in
+	usecase "check in" as uc1
+	usecase "group check in" as uc2
+	usecase "security screening" as uc3
 }
 
-:User: --> LoginService
+:User: --> uc1
+:User: --> uc2
+:User: --> uc3
 ```
 
 
