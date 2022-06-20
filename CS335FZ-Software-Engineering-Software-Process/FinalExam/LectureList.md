@@ -29,6 +29,7 @@ Interaction Modelling 交互建模
 - Interaction Overview Diagram
 - Communication Diagram
 - [[Sequence Diagram]]
+- [[Use Case]]
 
 ## Lecture-6 Architectural Design
 
