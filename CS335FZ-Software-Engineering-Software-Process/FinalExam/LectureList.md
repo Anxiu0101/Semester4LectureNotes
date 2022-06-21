@@ -3,9 +3,9 @@
 - [[Waterfall Model]]
 - [[V-Model]]
 - [[Incremental Development]]
+- [[Refactoring]]
 - [[Spiral Model]]
 - [[Prototype, Proof-of-Concept and Skeleton System]]
-- [[Refactoring]]
 - [[Rational Unified Process]]
 
 ## Lecture-3 Agile Software Development
