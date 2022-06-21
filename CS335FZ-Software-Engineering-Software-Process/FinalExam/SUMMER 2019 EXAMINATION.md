@@ -34,6 +34,8 @@ You are being asked to design a software system for DriveWell Ltd., a school of 
 Draw the UML class diagram for this description and explain its specifics in
 detail, if needed.
 
+> [[UML Class Diagram]]
+
 ```puml
 package DriveWell {
 	class Instructor {
@@ -74,6 +76,7 @@ package DriveWell {
 		+ car Car
 		+ length time.duration = time.hour
 		+ time time.duration
+		+ progress string
 	}
 	Lesson --|> Client
 	Lesson --|> Instructor
@@ -84,14 +87,14 @@ package DriveWell {
 		+ model string
 		+ mileage int
 		== methods ==
-		+ AddMileage()
+		+ AddMileage(distance int)
 	}
 	Car --|> Instructor
 	
 	class CarPool {
 		+ cars map[Instroctor]Car
 	}
-	Car --|> CarPool
+	Car --o CarPool
 }
 ```
 
