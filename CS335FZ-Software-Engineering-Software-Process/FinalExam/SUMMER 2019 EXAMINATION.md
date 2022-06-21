@@ -19,6 +19,7 @@ package Service {
 	usecase "check in" as uc1
 	usecase "group check in" as uc2
 	usecase "security screening" as uc3
+	usecase "luggage check-in" as uc4
 }
 
 package client {
@@ -36,7 +37,17 @@ user1 --|> user
 user2 --|> user
 user3 --|> user
 user4 --|> user
-user --
+user -- cl1
+user -- cl2
+cl1 -- uc1
+cl1 -- uc2
+cl2 -- uc1
+cl2 -- uc2
+uc1 -- uc3
+uc2 -- uc3
+uc1 -- uc4
+uc2 -- uc4
+uc4 -- uc3
 ```
 
 
