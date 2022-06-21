@@ -48,8 +48,8 @@ OO面向对象 DFD? E-R Diagram 实体关系图
 设计模式
 
 - 单例模式 [[Design Patterns#Singleton Pattern|Singleton Pattern]]
-- 工厂模式 [[D]]
-- 外观模式 Façade Pattern 就是封装吧
+- 工厂模式 [[Design Patterns#Factory Method Pattern| Factory Method Pattern]]
+- 外观模式 [[Design Patterns#Facade Pattern|Façade Pattern]] 
 - 适配器模式 Adapter Pattern
 - 观察者模式 Observer Pattern 主要是对于服务过程中的监控
 
