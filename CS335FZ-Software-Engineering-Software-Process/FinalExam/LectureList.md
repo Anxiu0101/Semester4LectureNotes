@@ -1,6 +1,8 @@
 ## Lecture-3 Agile Software Development
 
-- [[eXtreme Programming]]
+- [[eXtreme Programming|XP:eXtreme Programming]]
+- [[User Story]]
+- [[Scrum Framework]]
 
 ## Lecture-4
 
