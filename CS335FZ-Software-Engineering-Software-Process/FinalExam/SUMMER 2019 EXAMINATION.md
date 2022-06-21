@@ -21,6 +21,10 @@ package DublinAirportSystem {
 	usecase "security screening" as uc3
 }
 
+actor Passenger as user1
+actor TourGuide as user2
+actor MinorPassengre as user3
+actor SpecialNeeds
 :User: --> uc1
 :User: --> uc2
 :User: --> uc3
