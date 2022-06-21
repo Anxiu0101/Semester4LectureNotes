@@ -36,7 +36,7 @@ detail, if needed.
 
 ```puml
 package DriveWell {
-	class Instructors {
+	class Instructor {
 		+ instructorNumber int
 		+ name string
 		+ address string
@@ -50,33 +50,45 @@ package DriveWell {
 		+ client Client
 		+ instructor Instructor
 	}
+	Interview --|> Client
+	Interview --|> Instructor
 	
 	class Client {
 		+ uid int
 		+ provisionalDrivingLicenseNumber int
 		+ mobilePhone string
 		+ address string
+		+ plan Plan
 		== methods ==
-		+ BookLessons() Lesson
+		+ BookLessons() Plan
+	}
+	
+	class Plan {
+		+ count int
+		+ lessons []Lessons
 	}
 	
 	class Lesson {
 		+ instructor Instructor
 		+ client Client
 		+ car Car
+		+ length time.duration = time.hour
 		+ time time.duration
 	}
+	Lesson --|> Client
+	Lesson --|> Instructor
 	
 	class Car {
 		+ registrationPlate string
 		+ carMake string
 		+ model string
 	}
-	Car --|> Instroctor
+	Car --|> Instructor
 	
 	class CarPool {
 		+ cars map[Instroctor]Car
 	}
+	Car --|> CarPool
 }
 ```
 
