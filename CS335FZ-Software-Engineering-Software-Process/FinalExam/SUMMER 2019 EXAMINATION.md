@@ -34,6 +34,22 @@ You are being asked to design a software system for DriveWell Ltd., a school of 
 Draw the UML class diagram for this description and explain its specifics in
 detail, if needed.
 
+```puml
+package DriveWell {
+	class instructors {
+		+ instructorNumber int
+		+ name string
+		+ address string
+		+ mobilePhone string
+		+ qualification string
+	}
+	
+	class client {
+		
+	}
+}
+```
+
 
 ## Q4
 
