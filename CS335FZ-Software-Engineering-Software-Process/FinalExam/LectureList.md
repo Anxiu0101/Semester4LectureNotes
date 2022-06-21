@@ -2,7 +2,8 @@
 
 - [[eXtreme Programming|XP:eXtreme Programming]]
 - [[User Story]]
-- [[Scrum Framework]]
+- [[Scrum]]
+- [[DevOps]]
 
 ## Lecture-4
 
