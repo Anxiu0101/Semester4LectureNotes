@@ -36,6 +36,7 @@ user1 --|> user
 user2 --|> user
 user3 --|> user
 user4 --|> user
+user --
 ```
 
 
