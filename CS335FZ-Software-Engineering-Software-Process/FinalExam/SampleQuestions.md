@@ -180,10 +180,16 @@ Refactoring refers to improving the quality and performance of the software by a
 
 ```java
 class Fruit {
+    protected String name;
     
+    public edible() boolean {
+        // do sth..
+    }
 }
 
-class
+class Apple extends Fruit {}
+
+class Orange extends Fruit {}
 ```
 
 
@@ -199,12 +205,42 @@ class
 
 
 
+```java
+interface Operation {
+    read();
+    write();
+}
+
+class DatabaseOperator implements Operation {}
+class FileOperatot implements Operation {}
+```
+
+
+
 
 ## Q27
 
 > Convert the following class diagram to its corresponding Java code.
 >
 > ![image-20220621160003817](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211600877.png)
+
+
+
+```java
+interface Ability {
+    swin();
+    walk();
+}
+
+class Animal implements Ability {
+    protected String name;
+}
+class Dog extends Animal {
+    public String breed;
+    public b
+}
+```
+
 
 
 ## Q28
