@@ -45,7 +45,7 @@ package DriveWell {
 	}
 	
 	class interview {
-		+ date duration.time
+		+ time time.duration
 		+ client client
 		+ instructor instructor
 	}
@@ -55,10 +55,20 @@ package DriveWell {
 		+ provisionalDrivingLicenseNumber int
 		+ mobilePhone string
 		+ address string
+		== methods ==
+		+ BookLessons() lesson
 	}
 	
-	class lesson {
-		
+	class Lesson {
+		+ instructor Instructor
+		+ client Client
+		+ car Car
+		+ time time.duration
+	}
+	
+	class Car {
+		+ registrationPlate string
+		+ instructor Instructor
 	}
 }
 ```
