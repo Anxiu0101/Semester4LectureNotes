@@ -82,6 +82,9 @@ package DriveWell {
 		+ registrationPlate string
 		+ carMake string
 		+ model string
+		+ mileage int
+		== methods ==
+		+ AddMileage()
 	}
 	Car --|> Instructor
 	
