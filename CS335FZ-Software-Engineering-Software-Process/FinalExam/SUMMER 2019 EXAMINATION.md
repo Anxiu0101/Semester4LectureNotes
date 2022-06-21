@@ -52,8 +52,8 @@ package DriveWell {
 		+ client Client
 		+ instructor Instructor
 	}
-	Interview --|> Client
-	Interview --|> Instructor
+	Interview ..> Client: <<bind>>
+	Interview ..> Instructor: <<bind>>
 	
 	class Client {
 		+ uid int
@@ -69,6 +69,7 @@ package DriveWell {
 		+ count int
 		+ lessons []Lessons
 	}
+	Plan ..> Client: <<bind>>
 	
 	class Lesson {
 		+ instructor Instructor
@@ -78,8 +79,9 @@ package DriveWell {
 		+ time time.duration
 		+ progress string
 	}
-	Lesson --|> Client
-	Lesson --|> Instructor
+	Lesson ..> Client: <<bind>>
+	Lesson ..> Instructor: <<bind>>
+	Lesson --o Plan
 	
 	class Car {
 		+ registrationPlate string
@@ -89,12 +91,12 @@ package DriveWell {
 		== methods ==
 		+ AddMileage(distance int)
 	}
-	Car --|> Instructor
+	Car "1..1"--"1..1" Instructor
+	Car --o CarPool
 	
 	class CarPool {
 		+ cars map[Instroctor]Car
 	}
-	Car --o CarPool
 }
 ```
 
