@@ -237,7 +237,9 @@ class Animal implements Ability {
 }
 class Dog extends Animal {
     public String breed;
-    public b
+    public bark() {
+    	// do sth..
+    }
 }
 ```
 
@@ -248,6 +250,24 @@ class Dog extends Animal {
 > Cover the following Java code to its corresponding UML Class Diagram.
 >
 > ![image-20220621160047707](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211600749.png)
+>
+> ![image-20220621162803243](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211628291.png)
+>
+> ![image-20220621162814291](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211628147.png)
+>
+> ![image-20220621162823502](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211628553.png)
+>
+> ![image-20220621162847429](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211628479.png)
+>
+> ![image-20220621162904390](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211629435.png)
+>
+> ![image-20220621162918065](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211629105.png)
+
+
+
+```puml
+```
+
 
 
 ## Q29
