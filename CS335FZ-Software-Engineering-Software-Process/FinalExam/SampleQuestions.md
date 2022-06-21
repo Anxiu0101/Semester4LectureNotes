@@ -11,7 +11,7 @@
 >
 > 在极限编程（XP）中，什么是松弛任务？ 解释为什么我们需要它们。
 
-[[eXtreme Programming]]
+[[eXtreme Programming#Slack Tasks|Slack Tasks]]
 
 
 ## Q3
