@@ -35,5 +35,5 @@ detail, if needed.
 
 ### Q4.3
 
-> [[UML Class Diagram#Association Aggregation and Composition]]
-> [[UML Class Diagram]]
+> [[UML Class Diagram#Association Aggregation and Composition]]  
+> Unary 课件上好像·没有
