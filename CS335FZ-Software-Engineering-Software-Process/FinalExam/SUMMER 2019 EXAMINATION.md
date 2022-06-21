@@ -15,19 +15,27 @@ Draw the use-case diagram for this description.
 ```puml
 skinparam actorStyle awesome
 left to right direction
-package DublinAirportSystem {
+package Service {
 	usecase "check in" as uc1
 	usecase "group check in" as uc2
 	usecase "security screening" as uc3
 }
 
+package client {
+	usecase counter as cl1
+	usecase kiosk as cl2
+}
+
 actor Passenger as user1
 actor TourGuide as user2
 actor MinorPassengre as user3
-actor SpecialNeeds
-:User: --> uc1
-:User: --> uc2
-:User: --> uc3
+actor SpecialNeedsPassengers as user4
+actor User as user
+
+user1 --|> user
+user2 --|> user
+user3 --|> user
+user4 --|> user
 ```
 
 
