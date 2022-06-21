@@ -13,6 +13,9 @@
 
 [[eXtreme Programming#Slack Tasks|Slack Tasks]]
 
+Any kind of a task that can be postponed instantly is a slack tasks.
+Slack, that is buffers, are vital to protecting critical deadlines such that a project can proceed smoothly. A project runs smoothly when separate buffers are created for tasks rather than overestimating each task.
+
 
 ## Q3
 
