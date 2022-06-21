@@ -1,15 +1,22 @@
 ## Q1
 
-> If you were given a task to develop a software system to control a medical device for surgery, would the Waterfall model be a good choice for the development of the project? Explain why your decision is appropriate.
+> If you were given a task to develop a software system to control a medical device for surgery, would the Waterfall model be a good choice for the development of the project? Explain why your decision is appropriate. 
+> 如果您的任务是开发一个软件系统来控制用于手术的医疗设备，那么瀑布模型是否是该项目开发的一个不错的选择？ 解释为什么您的决定是适当的。
+>
+> [[Waterfall Model]]
 
 ## Q2
 
 > In extreme Programming (XP), what are slack tasks? Explain why we need them.
+>
+> 在极限编程（XP）中，什么是松弛任务？ 解释为什么我们需要它们。
 
 
 ## Q3
 
 > What is refactoring?
+>
+> 什么是重构？
 
 Refactoring refers to improving the quality and performance of the software by adjusting the program code, making the design pattern and architecture of the program more reasonable, and improving the scalability and maintainability of the software.
 
@@ -17,12 +24,15 @@ Refactoring refers to improving the quality and performance of the software by a
 ## Q4
 
 > In the Integration and Configuration model, we often have to refine requirements. What are the potential side-effects of refining requirements? Use an example to support your answer.
+>
+> 在集成和配置模型中，我们经常需要细化需求。 精炼要求的潜在副作用是什么？ 用一个例子来支持你的答案。
 
 
 ## Q5
 
-> In the Integration and Configuration model, we often have to refine requirements. What are the potential side-effects of refining requirements? Use an example to support your answer.
-
+> We have mentioned that “There is no universal process model that is right for all kinds of software development”, however, we also said that the Rational Unified Process (RUP) is a Universal Process Model. Are they contradictory statements? If not, how you explain this?
+>
+> 我们已经提到“没有适合所有类型软件开发的通用流程模型”，然而，我们也说过 Rational Unified Process (RUP) 是一个通用流程模型。 它们是相互矛盾的陈述吗？ 如果不是，你怎么解释这个？
 
 ## Q6
 
@@ -32,7 +42,6 @@ Refactoring refers to improving the quality and performance of the software by a
 ## Q7
 
 > Is the Inception phase of the Rational Unified Process the same as the Requirements Definition phase of the Waterfall model? If not, what the differences are?
-
 
 ## Q8
 
