@@ -131,3 +131,85 @@ Refactoring refers to improving the quality and performance of the software by a
 > Convert the following class diagram to its corresponding Java code.
 
 ![image-20220621155900691](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211559741.png)
+
+
+## Q27
+
+> Convert the following class diagram to its corresponding Java code.
+>
+> ![image-20220621160003817](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211600877.png)
+
+
+## Q28
+
+> Cover the following Java code to its corresponding UML Class Diagram.
+>
+> ![image-20220621160047707](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211600749.png)
+
+
+## Q29
+
+> The software architecture of a system is the set of structures needed to reason about the system. What are the general activities involved in the architecture design lifecycle? What is the BEST way to evaluate a software architecture?
+
+
+## Q30
+
+> In a UML Sequence diagram, how do you indicate an asynchronous message and an synchronous message? What does a Lost Message represent in a UML Sequence Diagram?
+
+
+## Q31
+
+> A financial report service is being designed for a government financial regulator office. The service is required to retrieve and aggregate large amount of data from various independent financial institutions to generate reports in a standard format. If you were appointed as the architect, which architectural pattern you would choose for the development of this project?
+
+
+## Q32
+
+> What is the main difference between the UML Context Diagram and the DFD Context Diagram? Use an example to support your answer.
+
+
+## Q33
+
+> In an ERD diagram, what is meant by the Degree of Relationship? What is the minimum degree and what is the possible maximum degree?
+
+
+## Q34
+
+> What does the symbol below represent for in an ER-Diagram?
+
+
+## Q35
+
+> Given the following design, improve it according to the Interface Segregation Principle (show the UML class diagram of the improved design).
+>
+> ![image-20220621160256251](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211602354.png)
+
+
+## Q36
+
+> Explain why “inheritance creates strong dependencies”? What is the alternative solution to the problem?
+
+
+## Q37
+
+> In the Open/Close principle of the SOLID, what is meant by “Open” and what is meant by “Close”?
+
+
+## Q38
+
+> In many application scenarios, we want to have one and exactly one instance of a class. To achieve this, we can use either _static methods_ or _singleton pattern_. Explain with an example, when we should use static methods and when we should consider using singleton pattern.
+
+
+## Q39
+
+> The Observer design pattern is also known as Publisher/Subscriber pattern. Explain how the Observer design pattern works in principle.
+
+
+## Q400
+
+> There are debates about using design patterns, for example, “don’t use design patterns for simple problems”. What could happen if we used design patterns for a simple problem?
+
+
+## Q4
+
+
+
