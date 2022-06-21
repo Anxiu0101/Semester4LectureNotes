@@ -37,6 +37,8 @@ Refactoring refers to improving the quality and performance of the software by a
 ## Q6
 
 > Is the Inception phase of the Rational Unified Process the same as the Requirements Definition phase of the Waterfall model? If not, what the differences are?
+>
+> Rational Unified Process 的初始阶段是否与瀑布模型的需求定义阶段相同？ 如果不是，有什么区别？
 
 
 ## Q7
@@ -46,86 +48,126 @@ Refactoring refers to improving the quality and performance of the software by a
 ## Q8
 
 > What are the differences between Iterative Process and Agile Process?
+>
+> Rational Unified Process 的初始阶段是否与瀑布模型的需求定义阶段相同？ 如果不是，有什么区别？
 
 
 ## Q9
 
 > In the context of eXtreme Programming (XP), what is a spike? Explain why we need spikes?
+>
+> 在极限编程 (XP) 的上下文中，什么是尖峰？ 解释为什么我们需要尖峰？
 
 
 ## Q10
 
 > Briefly describe the relationship between the concepts Sprint Backlog and Product Backlog in Scrum development.
+>
+> 简述Scrum开发中Sprint Backlog和Product Backlog这两个概念的关系。
 
 
 ## Q11
 
 > In Requirements Engineering, interview, ethnography and stories are the three common techniques used for requirement elicitation and analysis, briefly explain the main purpose of each technique (make one point for each technique).
+>
+> 在需求工程中，访谈、人种学和故事是用于需求获取和分析的三种常用技术，简要说明每种技术的主要目的（每种技术说明一点）。
 
 
 ## Q12
 
->  In the Agile Manifesto, one of the statements says, “working software over comprehensive documentation”. How do you interpret the statement? Is the statement universally applicable to all software development? Explain with examples.
-
+>   In the Agile Manifesto, one of the statements says, “working software over comprehensive documentation”. How do you interpret the statement? Is the statement universally applicable to all software development? Explain with examples.
+>
+>  在敏捷宣言中，其中一条声明说，“工作软件优于综合文档”。 您如何解释该声明？ 该声明是否普遍适用于所有软件开发？ 举例说明。
 
 ## Q13
 
 > In eXtreme Programming, why we need to provide estimate for Stories?
+>
+> 在极限编程中，为什么我们需要为 Stories 提供估算？
 
 
 ## Q14
 
 > What is meant by Adaptation in Scrum method? What are the mechanisms used in Scrum to ensure Adaptation?
+>
+> Scrum 方法中的适应是什么意思？ Scrum 中使用哪些机制来确保适应？
 
 
 ## Q15
 
->  The Tesco Stores in Ireland want to upgrade their online food delivery system. Discuss whether a food supplier of the Tesco Stores is a stakeholder of the system to be developed.
+>   The Tesco Stores in Ireland want to upgrade their online food delivery system. Discuss whether a food supplier of the Tesco Stores is a stakeholder of the system to be developed.
+>
+>  爱尔兰的 Tesco 商店希望升级其在线食品配送系统。 讨论乐购商店的食品供应商是否是待开发系统的利益相关者。
 
 
 ## Q16
 
 > A non-functional requirement must be measurable. In practice, a non-functional requirement can be formulated in a Quality Attribute Scenario (QAS). In a QAS, what are meant by the _environment_ and the _artifact_?
+>
+> 非功能性需求必须是可测量的。 在实践中，可以在质量属性场景 (QAS) 中制定非功能性需求。 在 QAS 中，_environment_ 和_artifact_ 是什么意思？
 
 
 ## Q17
 
 > What is the main difference between functional requirements and non-functional requirements? Give one example for each type of requirement.
+>
+> 功能性需求和非功能性需求的主要区别是什么？ 为每种类型的需求举一个例子。
 
 
 ## Q18
 
 > Explain briefly the GRASP principles of Information Expert, Pure Fabrication, Indirection and Protected Variation.
+>
+> 简要解释信息专家、纯制造、间接和受保护变化的 GRASP 原则。
 
 
 ## Q19
 
 > State what is meant by _coupling_ and what is meant by _cohesion_, as used in software engineering? Use examples to support your answer.
+>
+> 说明在软件工程中使用的_coupling_ 和_cohesion_ 是什么意思？ 用例子来支持你的答案。
 
 
 ## Q20
 
 > How would you maintain high-scalability and high-availability at the same time for a distributed web store?
+>
+> 您如何为分布式网络商店同时保持高可扩展性和高可用性？
 
 
 ## Q21
 
 > Non-functional requirements can be categorised into Product Requirements, Organisational Requirements and External Requirements. Given one example of each (don’t use the example shown in the Lecture Notes).
+>
+> 非功能性需求可以分为产品需求、组织需求和外部需求。 分别给出一个例子（不要使用讲义中的例子）。
 
 
 ## Q22
 
 > Given a requirement statement, how you would identify whether the requirement is a functional requirement or a non-functional requirement?
+>
+> 给定一个需求声明，您将如何识别该需求是功能性需求还是非功能性需求？
 
 
 ## Q23
 
 > Why do we need to prioritise requirements? Who should be involved in prioritising requirements when using Utility Trees? Why are they the most suitable candidates for prioritising requirements, but not others?
+>
+> 为什么我们需要优先考虑需求？ 在使用实用程序树时，谁应该参与对需求的优先级排序？ 为什么他们是优先考虑需求的最合适的候选人，而不是其他人？
 
 
 ## Q24
 
-> A software system supporting an online TV and film streaming service is being designed. The investors of the software system envisaged that they would have multi-millions of subscribers. 1) draw a Context Diagram of the system being designed, 2) there are many desired characteristics of the system, such as, security, scalability, availability, accessibility, access speed, and high throughput. From the experience, we already know that implementing too many of those non-functional requirements is not recommended.  As a project manager and architect, how you would balance between these non-functional requirements for the system?
+> A software system supporting an online TV and film streaming service is being designed. The investors of the software system envisaged that they would have multi-millions of subscribers. 
+>
+> 1. draw a Context Diagram of the system being designed, 
+> 2. there are many desired characteristics of the system, such as, security, scalability, availability, accessibility, access speed, and high throughput. From the experience, we already know that implementing too many of those non-functional requirements is not recommended.  As a project manager and architect, how you would balance between these non-functional requirements for the system?
+>
+> 正在设计支持在线电视和电影流媒体服务的软件系统。 软件系统的投资者设想他们将拥有数百万订阅者。
+>
+> 1. 绘制正在设计的系统的上下文图，
+>
+> 2. 系统有许多期望的特性，例如安全性、可扩展性、可用性、可访问性、访问速度和高吞吐量。 根据经验，我们已经知道不建议实施过多的非功能性需求。 作为项目经理和架构师，您将如何平衡系统的这些非功能性需求？
 
 
 ## Q25
@@ -133,6 +175,18 @@ Refactoring refers to improving the quality and performance of the software by a
 > Convert the following class diagram to its corresponding Java code.
 >
 > ![image-20220621155845378](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211558547.png)
+
+
+
+```java
+class Fruit {
+    
+}
+
+class
+```
+
+
 
 
 
