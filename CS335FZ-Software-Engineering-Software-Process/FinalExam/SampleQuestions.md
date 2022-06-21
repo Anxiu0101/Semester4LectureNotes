@@ -359,10 +359,22 @@ DellComputer --o RAIDCard
 
 
 ```puml
-class Client1{}
-class Client2{}
-class Client3{}
+interface Operations {
+	+ operation()
+}
 
+class Client1{
+	+ operation(): Operation for Client1
+}
+class Client2{
+	+ operation(): Operation for Client1
+}
+class Client3{
+	+ operation(): Operation for Client1
+}
+Client1 ..|> Operations
+Client2 ..|> Operations
+Client3 ..|> Operations
 ```
 
 
@@ -370,31 +382,42 @@ class Client3{}
 ## Q36
 
 > Explain why “inheritance creates strong dependencies”? What is the alternative solution to the problem?
+>
+> 解释为什么“继承会产生强依赖”？ 该问题的替代解决方案是什么？
 
 
 ## Q37
 
 > In the Open/Close principle of the SOLID, what is meant by “Open” and what is meant by “Close”?
+>
+> 在 SOLID 的 Open/Close 原则中，“Open”是什么意思，“Close”是什么意思？
 
 
 ## Q38
 
 > In many application scenarios, we want to have one and exactly one instance of a class. To achieve this, we can use either _static methods_ or _singleton pattern_. Explain with an example, when we should use static methods and when we should consider using singleton pattern.
+>
+> 在许多应用场景中，我们希望拥有一个并且恰好是一个类的实例。 为此，我们可以使用_静态方法_或_单例模式_。 举例说明，什么时候应该使用静态方法，什么时候应该考虑使用单例模式。
 
 
 ## Q39
 
 > The Observer design pattern is also known as Publisher/Subscriber pattern. Explain how the Observer design pattern works in principle.
+>
+> 观察者设计模式也称为发布者/订阅者模式。 解释观察者设计模式的原理。
 
-
-## Q400
+## Q40
 
 > There are debates about using design patterns, for example, “don’t use design patterns for simple problems”. What could happen if we used design patterns for a simple problem?
+>
+> 关于使用设计模式存在争议，例如，“不要将设计模式用于简单的问题”。 如果我们将设计模式用于一个简单的问题会发生什么？
 
 
 ## Q41
 
 > How to make a Graphical User Interface attractive and simple?
+>
+> 如何使图形用户界面有吸引力和简单？
 
 
 ## Q42
