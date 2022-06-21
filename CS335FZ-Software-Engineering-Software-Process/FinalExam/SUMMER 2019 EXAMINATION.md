@@ -10,6 +10,22 @@ Consider the following specification text: “A client company that sells oil bu
 Consider the following text that describes Dublin airport: For this example, we only consider Passengers, Tour guides, Minor Passengers (children), Passengers with Special Needs (e.g. with disabilities). Furthermore, consider Dublin airport as a business, similar to a system. Some of the essential things passengers typically do at Dublin airport are individual check-in, group check-in (for groups of tourists) and security screening – all of these represent important business functions or processes that take place at Dublin airport and serve the needs of passengers. Check-in can be performed at the counter or at the kiosk. Because passengers might have no luggage, luggage check-in is optional.
 Draw the use-case diagram for this description.
 
+> [[Use Case]]
+
+```puml
+skinparam actorStyle awesome
+left to right direction
+package DublinAirportSystem {
+	usecase "check in" as uc1
+	usecase "group check in" as uc2
+	usecase "security screening" as uc3
+}
+
+:User: --> uc1
+:User: --> uc2
+:User: --> uc3
+```
+
 
 ## Q3
 
