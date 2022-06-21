@@ -281,11 +281,26 @@ class GraphicsCard{
 class Computer {
 	# brand String
 	- gc GraphicsCard
-	- HardDisk hd
+	- hd HardDisk
 	- cpu CPU
 	
-	=
+	== Constructor ==
+	+ Computer()
+	== Override ==
+	+ on()
+	+ off()
+	+ reset()
 }
+Computer ..|> ComputerOperations
+Computer --o GraphicsCard
+Computer --o HardDisk
+Computer --o CPU
+class DellComputer {
+	# rc RAIDCard
+	== Constructor ==
+	+ DellComputer()
+}
+DellComputer ..> Computer: <<extends>>
 ```
 
 
