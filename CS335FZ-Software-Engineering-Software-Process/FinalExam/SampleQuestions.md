@@ -317,9 +317,10 @@ DellComputer --o RAIDCard
 ## Q30
 
 > In a UML Sequence diagram, how do you indicate an asynchronous message and an synchronous message? What does a Lost Message represent in a UML Sequence Diagram?
->
+> 
 > 在 UML 序列图中，如何指示异步消息和同步消息？ 丢失的消息在 UML 序列图中表示什么？
 
+[[UML Class Diagram]]
 
 ## Q31
 
@@ -386,6 +387,7 @@ Client3 ..|> Operations
 >
 > 解释为什么“继承会产生强依赖”？ 该问题的替代解决方案是什么？
 
+继承的存在导致子类随父类的变化而变化，这便是其产生强依赖的原因。替代解决方案是使用类的组合来代替继承。？？？
 
 ## Q37
 
