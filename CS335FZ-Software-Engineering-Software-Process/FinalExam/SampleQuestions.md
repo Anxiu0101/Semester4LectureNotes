@@ -266,6 +266,26 @@ class Dog extends Animal {
 
 
 ```puml
+interface ComputerOperation {
+	+ on()
+	+ off()
+	+ reset()
+}
+
+class HardDisk{}
+class CPU{}
+class RAIDCard{}
+class GraphicsCard{
+	+ showMessage(string)
+}
+class Computer {
+	# brand String
+	- gc GraphicsCard
+	- HardDisk hd
+	- cpu CPU
+	
+	=
+}
 ```
 
 
