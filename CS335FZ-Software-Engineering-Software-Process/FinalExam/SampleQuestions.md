@@ -122,15 +122,19 @@ Refactoring refers to improving the quality and performance of the software by a
 ## Q25
 
 > Convert the following class diagram to its corresponding Java code.
+>
+> ![image-20220621155845378](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211558547.png)
 
-![image-20220621155845378](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211558547.png)
+
 
 
 ## Q26
 
 > Convert the following class diagram to its corresponding Java code.
+>
+> ![image-20220621155900691](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211559741.png)
 
-![image-20220621155900691](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211559741.png)
+
 
 
 ## Q27
@@ -209,7 +213,54 @@ Refactoring refers to improving the quality and performance of the software by a
 > There are debates about using design patterns, for example, “don’t use design patterns for simple problems”. What could happen if we used design patterns for a simple problem?
 
 
-## Q4
+## Q41
+
+> How to make a Graphical User Interface attractive and simple?
+
+
+## Q42
+
+> Given a Graphical User Interface design, how you evaluate the effectiveness of the design in terms of User Experience?
+
+
+## Q43
+
+> Explain the difference between Testing and Debugging.
+
+
+## Q44
+
+> What is Regression testing? Why do we need regression testing? Identify one application scenario where a regression testing is needed. For the identified application scenario, what the negative side-effect of not using regression testing would be?
+
+
+## Q45
+
+> Use an example to explain the difference between Verification and Validation in context of software testing.
+
+
+## Q46
+
+> What are Deliverables in software development project? How would you identify deliverables for a given project?
+
+
+## Q47
+
+> With your own experience from developing the project in the semester, why people often say that project planning is difficult?
+
+
+## Q48
+
+> In project planning, given a fixed number of tasks, budget, resources and staff, how you could possibly reduce the total length (i.e., the critical path of the project) of the project?
+
+
+## Q49
+
+> Project Planning and Project Risk Management are two important aspects of project management, which one is more important for developing a large-scale scientific research project in which many universities and organizations are involved? Explain why?
+
+
+## Q50
+
+> 
 
 
 
