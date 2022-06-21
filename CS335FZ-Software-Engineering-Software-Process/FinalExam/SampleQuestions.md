@@ -50,7 +50,7 @@ Refactoring refers to improving the quality and performance of the software by a
 >
 > Rational Unified Process 的初始阶段是否与瀑布模型的需求定义阶段相同？ 如果不是，有什么区别？
 
-[[Rational Unified Process]]
+[[Rational Unified Process]] [[Waterfall Model]]
 
 
 ## Q7
@@ -325,6 +325,8 @@ DellComputer --o RAIDCard
 > The software architecture of a system is the set of structures needed to reason about the system. What are the general activities involved in the architecture design lifecycle? What is the BEST way to evaluate a software architecture?
 >
 > 系统的软件架构是推理系统所需的一组结构。 架构设计生命周期中涉及的一般活动有哪些？ 评估软件架构的最佳方法是什么？
+
+[[Architecture Design Lifecycle]]
 
 
 ## Q30

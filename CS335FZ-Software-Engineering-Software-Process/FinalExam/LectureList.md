@@ -52,6 +52,8 @@ Interaction Modelling 交互建模
 
 主要关于架构设计的知识点，包括 MVC
 
+- [[Architecture Design Lifecycle]]
+
 ## Lecture-7 Systems Analysis and Design
 
 - The GRASP principles can be used as a tool to help master the basics of OOD and understanding responsibility assignment in object design.
