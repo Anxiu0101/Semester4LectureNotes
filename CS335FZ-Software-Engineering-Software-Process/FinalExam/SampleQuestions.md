@@ -18,7 +18,8 @@
 >
 > 什么是重构？
 
-Refactoring refers to improving the quality and performance of the software by adjusting the program code, making the design pattern and architecture of the program more reasonable, and improving the scalability and maintainability of the software.
+Refactoring refers to improving the quality and performance of the software by adjusting the program code, making the design pattern and architecture of the program more reasonable, and improving the scalability and maintainability of the software.  
+重构是指通过调整程序代码来提高软件的质量和性能，使程序的设计模式和架构更加合理，提高软件的可扩展性和可维护性。
 
 
 ## Q4
@@ -423,46 +424,55 @@ Client3 ..|> Operations
 ## Q42
 
 > Given a Graphical User Interface design, how you evaluate the effectiveness of the design in terms of User Experience?
+>
+> 给定一个图形用户界面设计，您如何根据用户体验评估设计的有效性？
 
 
 ## Q43
 
 > Explain the difference between Testing and Debugging.
+>
+> 解释测试和调试之间的区别。
 
 
 ## Q44
 
 > What is Regression testing? Why do we need regression testing? Identify one application scenario where a regression testing is needed. For the identified application scenario, what the negative side-effect of not using regression testing would be?
+>
+> 什么是回归测试？ 为什么我们需要回归测试？ 确定一个需要进行回归测试的应用场景。 对于确定的应用场景，不使用回归测试的负面影响是什么？
 
 
 ## Q45
 
 > Use an example to explain the difference between Verification and Validation in context of software testing.
+>
+> 用一个例子来解释软件测试上下文中验证和确认之间的区别。
 
 
 ## Q46
 
 > What are Deliverables in software development project? How would you identify deliverables for a given project?
+>
+> 软件开发项目中的可交付成果是什么？ 您将如何确定给定项目的可交付成果？
 
 
 ## Q47
 
 > With your own experience from developing the project in the semester, why people often say that project planning is difficult?
+>
+> 以你自己这学期开发项目的经验，为什么经常有人说项目规划难？
 
 
 ## Q48
 
 > In project planning, given a fixed number of tasks, budget, resources and staff, how you could possibly reduce the total length (i.e., the critical path of the project) of the project?
+>
+> 在项目规划中，给定固定数量的任务、预算、资源和人员，你怎么可能减少项目的总长度（即项目的关键路径）？
 
 
 ## Q49
 
 > Project Planning and Project Risk Management are two important aspects of project management, which one is more important for developing a large-scale scientific research project in which many universities and organizations are involved? Explain why?
-
-
-## Q50
-
-> 
-
-
+>
+> 项目规划和项目风险管理是项目管理的两个重要方面，对于一个涉及众多高校和组织的大型科研项目，哪一个更重要？ 解释为什么？
 
