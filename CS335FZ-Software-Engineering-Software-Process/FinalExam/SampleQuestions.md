@@ -266,7 +266,7 @@ class Dog extends Animal {
 
 
 ```puml
-interface ComputerOperation {
+interface ComputerOperations {
 	+ on()
 	+ off()
 	+ reset()
@@ -301,6 +301,7 @@ class DellComputer {
 	+ DellComputer()
 }
 DellComputer ..> Computer: <<extends>>
+DellComputer --o RAIDCard
 ```
 
 
@@ -308,38 +309,62 @@ DellComputer ..> Computer: <<extends>>
 ## Q29
 
 > The software architecture of a system is the set of structures needed to reason about the system. What are the general activities involved in the architecture design lifecycle? What is the BEST way to evaluate a software architecture?
+>
+> 系统的软件架构是推理系统所需的一组结构。 架构设计生命周期中涉及的一般活动有哪些？ 评估软件架构的最佳方法是什么？
 
 
 ## Q30
 
 > In a UML Sequence diagram, how do you indicate an asynchronous message and an synchronous message? What does a Lost Message represent in a UML Sequence Diagram?
+>
+> 在 UML 序列图中，如何指示异步消息和同步消息？ 丢失的消息在 UML 序列图中表示什么？
 
 
 ## Q31
 
 > A financial report service is being designed for a government financial regulator office. The service is required to retrieve and aggregate large amount of data from various independent financial institutions to generate reports in a standard format. If you were appointed as the architect, which architectural pattern you would choose for the development of this project?
+>
+> 正在为政府金融监管机构设计一项财务报告服务。 该服务需要检索和汇总来自各个独立金融机构的大量数据，以生成标准格式的报告。 如果你被任命为建筑师，你会选择哪种架构模式来开发这个项目？
 
 
 ## Q32
 
 > What is the main difference between the UML Context Diagram and the DFD Context Diagram? Use an example to support your answer.
+>
+> UML 上下文图和 DFD 上下文图的主要区别是什么？ 用一个例子来支持你的答案。
 
 
 ## Q33
 
 > In an ERD diagram, what is meant by the Degree of Relationship? What is the minimum degree and what is the possible maximum degree?
+>
+> 在 ERD 图中，关系度数是什么意思？ 什么是最小度数，什么是可能的最大度数？
 
 
 ## Q34
 
 > What does the symbol below represent for in an ER-Diagram?
+>
+> 下面的符号在 ER 图中代表什么？
 
 
 ## Q35
 
 > Given the following design, improve it according to the Interface Segregation Principle (show the UML class diagram of the improved design).
 >
+> 给定以下设计，根据接口隔离原则对其进行改进（显示改进设计的 UML 类图）。
+>
 > ![image-20220621160256251](https://raw.githubusercontent.com/Anxiu0101/PicgoImg/master/202206211602354.png)
+
+
+
+```puml
+class Client1{}
+class Client2{}
+class Client3{}
+
+```
+
 
 
 ## Q36
