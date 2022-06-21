@@ -42,6 +42,8 @@ Refactoring refers to improving the quality and performance of the software by a
 >
 > 我们已经提到“没有适合所有类型软件开发的通用流程模型”，然而，我们也说过 Rational Unified Process (RUP) 是一个通用流程模型。 它们是相互矛盾的陈述吗？ 如果不是，你怎么解释这个？
 
+[[Rational Unified Process]]
+
 ## Q6
 
 > Is the Inception phase of the Rational Unified Process the same as the Requirements Definition phase of the Waterfall model? If not, what the differences are?
@@ -53,13 +55,15 @@ Refactoring refers to improving the quality and performance of the software by a
 
 ## Q7
 
-> Is the Inception phase of the Rational Unified Process the same as the Requirements Definition phase of the Waterfall model? If not, what the differences are?
+> Why do we always say that there are not clear boundaries between an Iterative Process and an Agile Process?
+> 
+> 为什么我们总是说迭代过程和敏捷过程之间没有明确的界限？
 
 ## Q8
 
 > What are the differences between Iterative Process and Agile Process?
 >
-> Rational Unified Process 的初始阶段是否与瀑布模型的需求定义阶段相同？ 如果不是，有什么区别？
+> 迭代过程和敏捷过程之间有什么区别？
 
 
 ## Q9
