@@ -44,7 +44,20 @@ package DriveWell {
 		+ qualification string
 	}
 	
+	class interview {
+		+ date duration.time
+		+ client client
+		+ instructor instructor
+	}
+	
 	class client {
+		+ uid int
+		+ provisionalDrivingLicenseNumber int
+		+ mobilePhone string
+		+ address string
+	}
+	
+	class lesson {
 		
 	}
 }
