@@ -33,7 +33,11 @@ Refactoring refers to improving the quality and performance of the software by a
 
 > In the Integration and Configuration model, we often have to refine requirements. What are the potential side-effects of refining requirements? Use an example to support your answer.
 >
-> 在集成和配置模型中，我们经常需要细化需求。 精炼要求的潜在副作用是什么？ 用一个例子来支持你的答案。
+> 在集成和配置模型中，我们经常需要细化需求。 精细化要求的潜在副作用是什么？ 用一个例子来支持你的答案。
+
+Requirements refinement is using information about the reusable components and applications to refine or modify the requirements. It may drift the original idea of the system and do not fulfill requirement of user. 需求细化是使用有关可重用组件和应用程序的信息来细化或修改需求。可能会偏离系统的初衷，无法满足用户的需求。
+
+For example, I needed to draw a line chart from existing data, but the existing library only supported drawing bar charts. I have to change my requirements from line charts to bar charts. 例如，我需要从现有数据中绘制折线图，但现有库仅支持绘制条形图。 我必须将我的要求从折线图更改为条形图。
 
 
 ## Q5
@@ -44,13 +48,24 @@ Refactoring refers to improving the quality and performance of the software by a
 
 [[Rational Unified Process]]
 
+They are not contradictory statements.
+Reason: 
+We said that the Rational Unified Process (RUP) is a Universal Process Model means that most practical software processes are based on a general model. 我们说 Rational Unified Process (RUP) 是一个通用过程模型，意思是大多数实际的软件过程都是基于一个通用模型。
+
+"There is no universal process model that is right for all kinds of software development" because RUP is only a framework of the process, developers need to incorporate features of other models and customize the process defined by the customer and regulatory requirements, the environment where the software will be used, and the type of software being developed. 没有适用于各种软件开发的通用流程模型”，因为 RUP 只是流程的一个框架，开发人员需要结合其他模型的特性并定制客户和法规要求定义的流程， 将使用的软件，以及正在开发的软件类型。
+
+
 ## Q6
 
 > Is the Inception phase of the Rational Unified Process the same as the Requirements Definition phase of the Waterfall model? If not, what the differences are?
 >
 > Rational Unified Process 的初始阶段是否与瀑布模型的需求定义阶段相同？ 如果不是，有什么区别？
 
-[[Rational Unified Process]]
+[[Rational Unified Process]] [[Waterfall Model]]
+
+1. In the Waterfall model, the Requirements requires us to gather the information about the required functionalities and constraints. We should carefully do it and define all the requirements and etc. If we do the next operations, we cannot go back to modify some requirements. The Waterfall model is a plan-driven process, we should do one stages, finish it and do another. 在瀑布模型中，要求要求我们收集有关所需功能和约束的信息。 我们应该仔细地做它并定义所有的需求等等。如果我们做接下来的操作，我们不能回去修改一些需求。 瀑布模型是一个计划驱动的过程，我们应该做一个阶段，完成它，然后再做一个。
+
+2. About the Inception phase of the Rational Unified Process, it is only the initial short step to establish a common vision and basic scope for the project. In this, we should not define all the requirements, or generate a believable estimate or project plan. 关于 Rational Unified Process 的初始阶段，建立项目的共同愿景和基本范围只是最初的一小步。 在这方面，我们不应该定义所有的需求，或者生成一个可信的估计或项目计划
 
 
 ## Q7
@@ -73,7 +88,6 @@ Refactoring refers to improving the quality and performance of the software by a
 > 在极限编程 (XP) 的上下文中，什么是尖峰？ 解释为什么我们需要尖峰？
 
 [[eXtreme Programming#Spike|Spike]]
-
 
 ## Q10
 
@@ -327,6 +341,18 @@ DellComputer --o RAIDCard
 > The software architecture of a system is the set of structures needed to reason about the system. What are the general activities involved in the architecture design lifecycle? What is the BEST way to evaluate a software architecture?
 >
 > 系统的软件架构是推理系统所需的一组结构。 架构设计生命周期中涉及的一般活动有哪些？ 评估软件架构的最佳方法是什么？
+
+The general activities involved in the architecture design lifecycle are,
+- Architectural Requirements
+- Architectural Design
+- Architectural Document
+- Architectural Implementation
+- Architectural Evaluation 
+
+The BEST way to evaluate a software architecture is that, 
+不懂
+
+[[Architecture Design Lifecycle]]
 
 
 ## Q30
