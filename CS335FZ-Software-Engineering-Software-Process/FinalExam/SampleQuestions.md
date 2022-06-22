@@ -63,6 +63,10 @@ We said that the Rational Unified Process (RUP) is a Universal Process Model mea
 
 [[Rational Unified Process]] [[Waterfall Model]]
 
+1. In the Waterfall model, the Requirements requires us to gather the information about the required functionalities and constraints. We should carefully do it and define all the requirements and etc. If we do the next operations, we cannot go back to modify some requirements. The Waterfall model is a plan-driven process, we should do one stages, finish it and do another. 在瀑布模型中，要求要求我们收集有关所需功能和约束的信息。 我们应该仔细地做它并定义所有的需求等等。如果我们做接下来的操作，我们不能回去修改一些需求。 瀑布模型是一个计划驱动的过程，我们应该做一个阶段，完成它，然后再做一个。
+
+2. About the Inception phase of the Rational Unified Process, it is only the initial short step to establish a common vision and basic scope for the project. In this, we should not define all the requirements, or generate a believable estimate or project plan. 关于 Rational Unified Process 的初始阶段，建立项目的共同愿景和基本范围只是最初的一小步。 在这方面，我们不应该定义所有的需求，或者生成一个可信的估计或项目计划
+
 
 ## Q7
 
@@ -82,6 +86,7 @@ We said that the Rational Unified Process (RUP) is a Universal Process Model mea
 > In the context of eXtreme Programming (XP), what is a spike? Explain why we need spikes?
 >
 > 在极限编程 (XP) 的上下文中，什么是尖峰？ 解释为什么我们需要尖峰？
+
 
 
 ## Q10
