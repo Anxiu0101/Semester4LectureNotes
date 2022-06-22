@@ -35,6 +35,10 @@ Refactoring refers to improving the quality and performance of the software by a
 >
 > 在集成和配置模型中，我们经常需要细化需求。 精炼要求的潜在副作用是什么？ 用一个例子来支持你的答案。
 
+Requirements refinement is using information about the reusable components and applications to refine or modify the requirements. It may drift the original idea of the system and do not fulfill requirement of user.
+
+For example, I needed to draw a line chart from existing data, but the existing library only supported drawing bar charts. I have to change my requirements from line charts to bar charts.
+
 
 ## Q5
 
