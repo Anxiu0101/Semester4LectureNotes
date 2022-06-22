@@ -326,6 +326,8 @@ DellComputer --o RAIDCard
 >
 > 系统的软件架构是推理系统所需的一组结构。 架构设计生命周期中涉及的一般活动有哪些？ 评估软件架构的最佳方法是什么？
 
+The general activities involved in the architecture design lifecycle are
+
 [[Architecture Design Lifecycle]]
 
 
