@@ -72,6 +72,8 @@ Refactoring refers to improving the quality and performance of the software by a
 >
 > 在极限编程 (XP) 的上下文中，什么是尖峰？ 解释为什么我们需要尖峰？
 
+[[eXtreme Programming#Spike|Spike]]
+
 
 ## Q10
 
