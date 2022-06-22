@@ -87,7 +87,7 @@ We said that the Rational Unified Process (RUP) is a Universal Process Model mea
 >
 > 在极限编程 (XP) 的上下文中，什么是尖峰？ 解释为什么我们需要尖峰？
 
-
+[[eXtreme Programming#Spike|Spike]]
 
 ## Q10
 
