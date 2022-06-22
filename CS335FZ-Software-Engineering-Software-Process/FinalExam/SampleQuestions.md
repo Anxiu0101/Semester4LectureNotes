@@ -33,11 +33,11 @@ Refactoring refers to improving the quality and performance of the software by a
 
 > In the Integration and Configuration model, we often have to refine requirements. What are the potential side-effects of refining requirements? Use an example to support your answer.
 >
-> 在集成和配置模型中，我们经常需要细化需求。 精炼要求的潜在副作用是什么？ 用一个例子来支持你的答案。
+> 在集成和配置模型中，我们经常需要细化需求。 精细化要求的潜在副作用是什么？ 用一个例子来支持你的答案。
 
-Requirements refinement is using information about the reusable components and applications to refine or modify the requirements. It may drift the original idea of the system and do not fulfill requirement of user.
+Requirements refinement is using information about the reusable components and applications to refine or modify the requirements. It may drift the original idea of the system and do not fulfill requirement of user. 需求细化是使用有关可重用组件和应用程序的信息来细化或修改需求。可能会偏离系统的初衷，无法满足用户的需求。
 
-For example, I needed to draw a line chart from existing data, but the existing library only supported drawing bar charts. I have to change my requirements from line charts to bar charts.
+For example, I needed to draw a line chart from existing data, but the existing library only supported drawing bar charts. I have to change my requirements from line charts to bar charts. 例如，我需要从现有数据中绘制折线图，但现有库仅支持绘制条形图。 我必须将我的要求从折线图更改为条形图。
 
 
 ## Q5
@@ -47,6 +47,13 @@ For example, I needed to draw a line chart from existing data, but the existing 
 > 我们已经提到“没有适合所有类型软件开发的通用流程模型”，然而，我们也说过 Rational Unified Process (RUP) 是一个通用流程模型。 它们是相互矛盾的陈述吗？ 如果不是，你怎么解释这个？
 
 [[Rational Unified Process]]
+
+They are not contradictory statements.
+Reason: 
+We said that the Rational Unified Process (RUP) is a Universal Process Model means that most practical software processes are based on a general model. 我们说 Rational Unified Process (RUP) 是一个通用过程模型，意思是大多数实际的软件过程都是基于一个通用模型。
+
+"There is no universal process model that is right for all kinds of software development" because RUP is only a framework of the process, developers need to incorporate features of other models and customize the process defined by the customer and regulatory requirements, the environment where the software will be used, and the type of software being developed. 没有适用于各种软件开发的通用流程模型”，因为 RUP 只是流程的一个框架，开发人员需要结合其他模型的特性并定制客户和法规要求定义的流程， 将使用的软件，以及正在开发的软件类型。
+
 
 ## Q6
 
